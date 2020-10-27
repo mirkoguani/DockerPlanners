@@ -1,0 +1,418 @@
+0: (load-truck tru1 obj12 pos1)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+1: (load-truck tru2 obj21 pos2)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+2: (load-truck tru3 obj31 pos3)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+3: (load-truck tru4 obj42 pos4)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+6: (load-truck tru3 obj33 pos3)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Obs time: 2.001
+AGREEMENT
+
+5: (load-truck tru2 obj22 pos2)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Obs time: 2.001
+AGREEMENT
+
+4: (load-truck tru1 obj13 pos1)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Obs time: 2.001
+AGREEMENT
+
+7: (drive-truck tru4 pos4 apt4 cit4)
+	Duration: 20.000
+	Fired at: 2.001
+	Ended at: 22.001
+	Plan Expected firing: 2.001
+	Obs time: 2.001
+AGREEMENT
+
+8: (load-truck tru2 obj23 pos2)
+	Duration: 2.000
+	Fired at: 4.002
+	Ended at: 6.002
+	Plan Expected firing: 4.002
+	Obs time: 4.002
+AGREEMENT
+
+10: (drive-truck tru1 pos1 apt1 cit1)
+	Duration: 20.000
+	Fired at: 4.002
+	Ended at: 24.002
+	Plan Expected firing: 4.002
+	Obs time: 4.002
+AGREEMENT
+
+9: (drive-truck tru3 pos3 apt3 cit3)
+	Duration: 20.000
+	Fired at: 4.002
+	Ended at: 24.002
+	Plan Expected firing: 4.002
+	Obs time: 4.002
+AGREEMENT
+
+11: (drive-truck tru2 pos2 apt2 cit2)
+	Duration: 20.000
+	Fired at: 6.003
+	Ended at: 26.003
+	Plan Expected firing: 6.003
+	Obs time: 6.003
+AGREEMENT
+
+12: (unload-truck tru4 obj42 apt4)
+	Duration: 2.000
+	Fired at: 22.002
+	Ended at: 24.002
+	Plan Expected firing: 22.002
+	Obs time: 22.002
+AGREEMENT
+
+13: (unload-truck tru3 obj31 apt3)
+	Duration: 2.000
+	Fired at: 24.003
+	Ended at: 26.003
+	Plan Expected firing: 24.003
+	Obs time: 24.003
+AGREEMENT
+
+14: (unload-truck tru1 obj12 apt1)
+	Duration: 2.000
+	Fired at: 24.003
+	Ended at: 26.003
+	Plan Expected firing: 24.003
+	Obs time: 24.003
+AGREEMENT
+
+15: (unload-truck tru1 obj13 apt1)
+	Duration: 2.000
+	Fired at: 26.004
+	Ended at: 28.004
+	Plan Expected firing: 26.004
+	Obs time: 26.004
+AGREEMENT
+
+17: (unload-truck tru3 obj33 apt3)
+	Duration: 2.000
+	Fired at: 26.004
+	Ended at: 28.004
+	Plan Expected firing: 26.004
+	Obs time: 26.004
+AGREEMENT
+
+16: (unload-truck tru2 obj21 apt2)
+	Duration: 2.000
+	Fired at: 26.004
+	Ended at: 28.004
+	Plan Expected firing: 26.004
+	Obs time: 26.004
+AGREEMENT
+
+18: (load-airplane apn1 obj31 apt3)
+	Duration: 5.000
+	Fired at: 26.004
+	Ended at: 31.004
+	Plan Expected firing: 26.004
+	Obs time: 26.004
+AGREEMENT
+
+19: (unload-truck tru2 obj22 apt2)
+	Duration: 2.000
+	Fired at: 28.005
+	Ended at: 30.005
+	Plan Expected firing: 28.005
+	Obs time: 28.005
+AGREEMENT
+
+20: (unload-truck tru2 obj23 apt2)
+	Duration: 2.000
+	Fired at: 30.006
+	Ended at: 32.006
+	Plan Expected firing: 30.006
+	Obs time: 30.006
+AGREEMENT
+
+21: (load-airplane apn1 obj33 apt3)
+	Duration: 5.000
+	Fired at: 31.005
+	Ended at: 36.005
+	Plan Expected firing: 31.005
+	Obs time: 30.006
+AGREEMENT
+
+22: (fly-airplane apn1 apt3 apt1)
+	Duration: 50.000
+	Fired at: 36.006
+	Ended at: 86.006
+	Plan Expected firing: 36.006
+	Obs time: 30.006
+AGREEMENT
+
+23: (load-airplane apn1 obj12 apt1)
+	Duration: 5.000
+	Fired at: 86.007
+	Ended at: 91.007
+	Plan Expected firing: 86.007
+	Obs time: 30.006
+AGREEMENT
+
+24: (load-airplane apn1 obj13 apt1)
+	Duration: 5.000
+	Fired at: 91.008
+	Ended at: 96.008
+	Plan Expected firing: 91.008
+	Obs time: 30.006
+AGREEMENT
+
+25: (unload-airplane apn1 obj31 apt1)
+	Duration: 5.000
+	Fired at: 96.009
+	Ended at: 101.009
+	Plan Expected firing: 96.009
+	Obs time: 30.006
+AGREEMENT
+
+26: (load-truck tru1 obj31 apt1)
+	Duration: 2.000
+	Fired at: 101.010
+	Ended at: 103.010
+	Plan Expected firing: 101.010
+	Obs time: 30.006
+AGREEMENT
+
+27: (unload-airplane apn1 obj33 apt1)
+	Duration: 5.000
+	Fired at: 101.010
+	Ended at: 106.010
+	Plan Expected firing: 101.010
+	Obs time: 30.006
+AGREEMENT
+
+28: (drive-truck tru1 apt1 pos1 cit1)
+	Duration: 20.000
+	Fired at: 103.011
+	Ended at: 123.011
+	Plan Expected firing: 103.011
+	Obs time: 30.006
+AGREEMENT
+
+29: (fly-airplane apn1 apt1 apt2)
+	Duration: 50.000
+	Fired at: 106.011
+	Ended at: 156.011
+	Plan Expected firing: 106.011
+	Obs time: 30.006
+AGREEMENT
+
+30: (unload-truck tru1 obj31 pos1)
+	Duration: 2.000
+	Not Fired at: 123.012
+	Not Ended at: 125.012
+	Plan Expected firing: 123.012
+	Obs time: 30.006
+DISCREPANCY
+	at tru1 pos1
+
+31: (drive-truck tru1 pos1 apt1 cit1)
+	Duration: 20.000
+	Not Fired at: 125.013
+	Not Ended at: 145.013
+	Plan Expected firing: 125.013
+	Obs time: 30.006
+DISCREPANCY
+	at tru1 pos1
+
+32: (load-airplane apn1 obj21 apt2)
+	Duration: 5.000
+	Fired at: 156.012
+	Ended at: 161.012
+	Plan Expected firing: 156.012
+	Obs time: 30.006
+AGREEMENT
+
+33: (load-airplane apn1 obj23 apt2)
+	Duration: 5.000
+	Fired at: 161.013
+	Ended at: 166.013
+	Plan Expected firing: 161.013
+	Obs time: 30.006
+AGREEMENT
+
+34: (unload-airplane apn1 obj12 apt2)
+	Duration: 5.000
+	Fired at: 166.014
+	Ended at: 171.014
+	Plan Expected firing: 166.014
+	Obs time: 30.006
+AGREEMENT
+
+35: (fly-airplane apn1 apt2 apt1)
+	Duration: 50.000
+	Fired at: 171.015
+	Ended at: 221.015
+	Plan Expected firing: 171.015
+	Obs time: 30.006
+AGREEMENT
+
+36: (unload-airplane apn1 obj23 apt1)
+	Duration: 5.000
+	Fired at: 221.016
+	Ended at: 226.016
+	Plan Expected firing: 221.016
+	Obs time: 216.006
+AGREEMENT
+
+37: (load-truck tru1 obj23 apt1)
+	Duration: 2.000
+	Not Fired at: 226.017
+	Not Ended at: 228.017
+	Plan Expected firing: 226.017
+	Obs time: 224.003
+DISCREPANCY
+	at tru1 apt1
+	at obj23 apt1
+
+38: (fly-airplane apn1 apt1 apt4)
+	Duration: 50.000
+	Not Fired at: 226.017
+	Not Ended at: 276.017
+	Plan Expected firing: 226.017
+	Obs time: 224.003
+DISCREPANCY
+	at apn1 apt1
+
+39: (drive-truck tru1 apt1 pos1 cit1)
+	Duration: 20.000
+	Fired at: 228.018
+	Ended at: 248.018
+	Plan Expected firing: 228.018
+	Obs time: 228.006
+AGREEMENT
+
+40: (unload-truck tru1 obj23 pos1)
+	Duration: 2.000
+	Fired at: 248.019
+	Ended at: 250.019
+	Plan Expected firing: 248.019
+	Obs time: 248.008
+AGREEMENT
+
+41: (load-airplane apn1 obj42 apt4)
+	Duration: 5.000
+	Fired at: 276.018
+	Ended at: 281.018
+	Plan Expected firing: 276.018
+	Obs time: 276.009
+AGREEMENT
+
+42: (unload-airplane apn1 obj13 apt4)
+	Duration: 5.000
+	Not Fired at: 281.019
+	Not Ended at: 286.019
+	Plan Expected firing: 281.019
+	Obs time: 281.01
+DISCREPANCY
+	in obj13 apn1
+
+43: (load-truck tru4 obj13 apt4)
+	Duration: 2.000
+	Fired at: 286.020
+	Ended at: 288.020
+	Plan Expected firing: 286.020
+	Obs time: 286.011
+AGREEMENT
+
+44: (unload-airplane apn1 obj21 apt4)
+	Duration: 5.000
+	Fired at: 286.020
+	Ended at: 291.020
+	Plan Expected firing: 286.020
+	Obs time: 286.011
+AGREEMENT
+
+45: (load-truck tru4 obj21 apt4)
+	Duration: 2.000
+	Fired at: 291.021
+	Ended at: 293.021
+	Plan Expected firing: 291.021
+	Obs time: 286.011
+AGREEMENT
+
+46: (fly-airplane apn1 apt4 apt2)
+	Duration: 50.000
+	Fired at: 291.021
+	Ended at: 341.021
+	Plan Expected firing: 291.021
+	Obs time: 286.011
+AGREEMENT
+
+47: (drive-truck tru4 apt4 pos4 cit4)
+	Duration: 20.000
+	Fired at: 293.022
+	Ended at: 313.022
+	Plan Expected firing: 293.022
+	Obs time: 286.011
+AGREEMENT
+
+48: (unload-truck tru4 obj13 pos4)
+	Duration: 2.000
+	Not Fired at: 313.023
+	Not Ended at: 315.023
+	Plan Expected firing: 313.023
+	Obs time: 286.011
+DISCREPANCY
+	at tru4 pos4
+
+49: (unload-truck tru4 obj21 pos4)
+	Duration: 2.000
+	Not Fired at: 315.024
+	Not Ended at: 317.024
+	Plan Expected firing: 315.024
+	Obs time: 286.011
+DISCREPANCY
+	at tru4 pos4
+
+50: (unload-airplane apn1 obj42 apt2)
+	Duration: 5.000
+	Fired at: 341.022
+	Ended at: 346.022
+	Plan Expected firing: 341.022
+	Obs time: 341.013
+AGREEMENT
+
+
+GOAL REACHED

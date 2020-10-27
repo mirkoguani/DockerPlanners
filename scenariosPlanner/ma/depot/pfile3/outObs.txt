@@ -1,0 +1,1598 @@
+{
+	0.0:
+		{
+			'prop':
+				{
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'0', '1', '2', 
+				},
+		},
+	5.001:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): True,
+							('distributor1', 'hoist2', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'3', 
+				},
+		},
+	10.002:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'4', 
+				},
+		},
+	50.001:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'5', 
+				},
+		},
+	60.003:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'6', 
+				},
+		},
+	65.004:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+							('distributor0', 'hoist1', 'crate1'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'8', '7', 
+				},
+		},
+	100.002:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+							('distributor0', 'hoist1', 'crate1'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'9', 
+				},
+		},
+	105.003:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'10', 
+				},
+		},
+	110.004:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'12', 
+				},
+		},
+	115.005:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'11', '13', 
+				},
+		},
+	165.006:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'15', '14', 
+				},
+		},
+	170.007:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'16', 
+				},
+		},
+	220.008:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): True,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'19', 
+				},
+		},
+	225.009:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'22', '20', 
+				},
+		},
+	315.007:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'17', 
+				},
+		},
+	320.008:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'18', 
+				},
+		},
+	325.009:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): True,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'21', 
+				},
+		},
+	330.01:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'23', 
+				},
+		},
+	335.011:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'24', 
+				},
+		},
+	340.012:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'25', 
+				},
+		},
+	345.013:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'26', 
+				},
+		},
+	345.014:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'27', 
+				},
+		},
+	350.015:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'28', 
+				},
+		},
+	350.016:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'29', 
+				},
+		},
+	350.017:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'30', 
+				},
+		},
+	350.018:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'31', 
+				},
+		},
+	350.019:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'32', '33', 
+				},
+		},
+	350.02:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'34', 
+				},
+		},
+	350.021:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'35', 
+				},
+		},
+	350.022:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'36', 
+				},
+		},
+	350.023:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'37', 
+				},
+		},
+	335.005:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'41', 
+				},
+		},
+	335.006:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'43', 
+				},
+		},
+	400.02:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'38', 
+				},
+		},
+	400.021:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'39', '40', 
+				},
+		},
+	400.024:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'42', 
+				},
+		},
+	450.022:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'44', 
+				},
+		},
+	450.023:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'45', 
+				},
+		},
+	450.024:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): True,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'46', 
+				},
+		},
+	455.025:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'47', 
+				},
+		},
+	455.026:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'48', 
+				},
+		},
+	455.027:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): False,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): True,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'49', 
+				},
+		},
+	460.028:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'51', '50', 
+				},
+		},
+	510.029:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'52', 
+				},
+		},
+	510.03:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'53', 
+				},
+		},
+	510.031:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): False,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): True,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'54', 
+				},
+		},
+	515.032:
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'55', 
+				},
+		},
+	'goal':
+		{
+			'prop':
+				{
+					'lifting':
+						{
+							('depot0', 'hoist0', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate5'): True,
+							('distributor0', 'hoist1', 'crate1'): False,
+							('distributor1', 'hoist2', 'crate2'): False,
+							('distributor0', 'hoist1', 'crate5'): False,
+							('depot0', 'hoist0', 'crate2'): True,
+							('distributor0', 'hoist1', 'crate4'): True,
+							('distributor0', 'hoist1', 'crate3'): False,
+						},
+					'available':
+						{
+							('depot0', 'hoist0'): False,
+							('distributor0', 'hoist1'): False,
+							('distributor1', 'hoist2'): False,
+						},
+					'driving':
+						{
+							('driver0', 'truck0'): True,
+							('driver1', 'truck1'): True,
+						},
+				},
+			'num':
+				{
+				},
+		},
+}

@@ -1,0 +1,10 @@
+{
+	'next': (),
+	'passenger-at': (),
+	'above': (),
+	'can-hold': (),
+	'reachable-floor': (),
+	'lift-at': (),
+	'boarded': (),
+	'passengers': (),
+}

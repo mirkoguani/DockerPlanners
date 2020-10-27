@@ -1,0 +1,1035 @@
+{
+	0.0:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): True,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): True,
+							('c',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'0', 
+				},
+		},
+	1.001:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): True,
+							('t1', 'c'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): True,
+							('c',): False,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'1', 
+				},
+		},
+	2.002:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): True,
+							('t1', 'c'): False,
+							('t1', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): False,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'2', 
+				},
+		},
+	3.003:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): False,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'3', 
+				},
+		},
+	4.004:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): True,
+							('t1', 'h3'): False,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): True,
+							('c',): False,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'4', 
+				},
+		},
+	5.005:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): True,
+						},
+					'free':
+						{
+							('h1',): False,
+							('h2',): True,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'5', 
+				},
+		},
+	6.006:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): True,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): True,
+							('p3', 'h1'): True,
+						},
+					'free':
+						{
+							('h1',): False,
+							('h2',): True,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'6', 
+				},
+		},
+	7.007:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): True,
+							('p3', 'h1'): True,
+						},
+					'free':
+						{
+							('h1',): False,
+							('h2',): True,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'7', 
+				},
+		},
+	8.008:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): False,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'8', 
+				},
+		},
+	9.009:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): True,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): True,
+							('p1', 'h2'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): False,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'9', 
+				},
+		},
+	10.01:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): False,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): True,
+							('p1', 'h2'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): False,
+							('h3',): True,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+							('p2', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'10', 
+				},
+		},
+	11.011:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): False,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): True,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): False,
+							('p1', 'h2'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): False,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): False,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+							('p2', 't1'): True,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'11', 
+				},
+		},
+	12.012:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): False,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): True,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): False,
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): False,
+							('c',): True,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+							('p2', 't1'): False,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'12', 
+				},
+		},
+	13.013:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): False,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): False,
+							('p3', 'h3'): False,
+							('t1', 'c'): True,
+							('t1', 'h3'): False,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): False,
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): True,
+							('c',): False,
+							('g1',): True,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+							('p2', 't1'): False,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'13', 
+				},
+		},
+	'goal':
+		{
+			'prop':
+				{
+					'at':
+						{
+							('t1', 'g1'): True,
+							('t2', 'g2'): True,
+							('t3', 'g3'): True,
+							('p1', 'h1'): False,
+							('p2', 'h2'): False,
+							('p3', 'h3'): False,
+							('t1', 'c'): False,
+							('t1', 'h3'): False,
+							('t1', 'h1'): False,
+							('p3', 'h1'): True,
+							('t1', 'h2'): False,
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+						},
+					'free':
+						{
+							('h1',): True,
+							('h2',): True,
+							('h3',): True,
+							('c',): True,
+							('g1',): False,
+						},
+					'empty':
+						{
+							('t1',): True,
+							('t2',): True,
+							('t3',): True,
+						},
+					'in':
+						{
+							('p3', 't1'): False,
+							('p1', 't1'): False,
+							('p2', 't1'): False,
+						},
+					'directly-connected':
+						{
+							('g1', 'c'): True,
+							('g2', 'c'): True,
+							('g3', 'c'): True,
+							('c', 'g1'): True,
+							('c', 'g2'): True,
+							('c', 'g3'): True,
+							('c', 'h1'): True,
+							('c', 'h2'): True,
+							('c', 'h3'): True,
+							('h1', 'c'): True,
+							('h1', 'h2'): True,
+							('h2', 'c'): True,
+							('h2', 'h1'): True,
+							('h2', 'h3'): True,
+							('h3', 'c'): True,
+							('h3', 'h2'): True,
+						},
+					'goal-of':
+						{
+							('p1', 'h2'): True,
+							('p2', 'h3'): True,
+							('p3', 'h1'): True,
+						},
+				},
+			'num':
+				{
+				},
+		},
+}

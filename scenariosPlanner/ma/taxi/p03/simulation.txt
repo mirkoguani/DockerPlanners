@@ -1,0 +1,162 @@
+0: (drive t1 g1 c)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+1: (drive t1 c h1)
+	Duration: 10.000
+	Fired at: 10.001
+	Ended at: 20.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (enter p1 t1 h1)
+	Duration: 1.000
+	Fired at: 20.002
+	Ended at: 21.002
+	Plan Expected firing: 20.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (drive t1 h1 c)
+	Duration: 10.000
+	Fired at: 21.003
+	Ended at: 31.003
+	Plan Expected firing: 21.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+4: (drive t1 c h2)
+	Duration: 10.000
+	Fired at: 31.004
+	Ended at: 41.004
+	Plan Expected firing: 31.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+5: (exit p1 t1 h2)
+	Duration: 1.000
+	Fired at: 41.005
+	Ended at: 42.005
+	Plan Expected firing: 41.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+6: (drive t1 h2 c)
+	Duration: 10.000
+	Fired at: 42.006
+	Ended at: 52.006
+	Plan Expected firing: 42.006
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+7: (drive t1 c h3)
+	Duration: 10.000
+	Fired at: 52.007
+	Ended at: 62.007
+	Plan Expected firing: 52.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+8: (enter p3 t1 h3)
+	Duration: 1.000
+	Fired at: 62.008
+	Ended at: 63.008
+	Plan Expected firing: 62.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+9: (drive t1 h3 c)
+	Duration: 10.000
+	Fired at: 63.009
+	Ended at: 73.009
+	Plan Expected firing: 63.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+10: (drive t1 c h1)
+	Duration: 10.000
+	Fired at: 73.010
+	Ended at: 83.010
+	Plan Expected firing: 73.010
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+11: (exit p3 t1 h1)
+	Duration: 1.000
+	Fired at: 83.011
+	Ended at: 84.011
+	Plan Expected firing: 83.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+12: (drive t1 h1 c)
+	Duration: 10.000
+	Fired at: 84.012
+	Ended at: 94.012
+	Plan Expected firing: 84.012
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+13: (drive t1 c h2)
+	Duration: 10.000
+	Fired at: 94.013
+	Ended at: 104.013
+	Plan Expected firing: 94.013
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+14: (enter p2 t1 h2)
+	Duration: 1.000
+	Fired at: 104.014
+	Ended at: 105.014
+	Plan Expected firing: 104.014
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+15: (drive t1 h2 c)
+	Duration: 10.000
+	Fired at: 105.015
+	Ended at: 115.015
+	Plan Expected firing: 105.015
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+16: (drive t1 c h3)
+	Duration: 10.000
+	Fired at: 115.016
+	Ended at: 125.016
+	Plan Expected firing: 115.016
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+17: (exit p2 t1 h3)
+	Duration: 1.000
+	Fired at: 125.017
+	Ended at: 126.017
+	Plan Expected firing: 125.017
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+18: (drive t1 h3 c)
+	Duration: 10.000
+	Fired at: 126.018
+	Ended at: 136.018
+	Plan Expected firing: 126.018
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+19: (drive t1 c g1)
+	Duration: 10.000
+	Fired at: 136.019
+	Ended at: 146.019
+	Plan Expected firing: 136.019
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+
+GOAL REACHED

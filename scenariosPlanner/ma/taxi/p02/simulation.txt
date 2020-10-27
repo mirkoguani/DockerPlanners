@@ -1,0 +1,114 @@
+0: (drive t1 g1 c)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+1: (drive t1 c h3)
+	Duration: 1.000
+	Fired at: 1.001
+	Ended at: 2.001
+	Plan Expected firing: 1.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (enter p3 t1 h3)
+	Duration: 1.000
+	Fired at: 2.002
+	Ended at: 3.002
+	Plan Expected firing: 2.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (drive t1 h3 c)
+	Duration: 1.000
+	Fired at: 3.003
+	Ended at: 4.003
+	Plan Expected firing: 2.003
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+4: (exit p3 t1 c)
+	Duration: 1.000
+	Fired at: 4.004
+	Ended at: 5.004
+	Plan Expected firing: 3.004
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+5: (drive t1 c h2)
+	Duration: 1.000
+	Fired at: 5.005
+	Ended at: 6.005
+	Plan Expected firing: 3.005
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+6: (enter p2 t1 h2)
+	Duration: 1.000
+	Fired at: 6.006
+	Ended at: 7.006
+	Plan Expected firing: 4.006
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+7: (drive t1 h2 c)
+	Duration: 1.000
+	Fired at: 7.007
+	Ended at: 8.007
+	Plan Expected firing: 4.007
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+8: (exit p2 t1 c)
+	Duration: 1.000
+	Fired at: 8.008
+	Ended at: 9.008
+	Plan Expected firing: 5.008
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+9: (drive t1 c h1)
+	Duration: 1.000
+	Fired at: 9.009
+	Ended at: 10.009
+	Plan Expected firing: 5.009
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+10: (enter p1 t1 h1)
+	Duration: 1.000
+	Fired at: 10.010
+	Ended at: 11.010
+	Plan Expected firing: 6.010
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+11: (drive t1 h1 c)
+	Duration: 1.000
+	Fired at: 11.011
+	Ended at: 12.011
+	Plan Expected firing: 6.011
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+12: (exit p1 t1 c)
+	Duration: 1.000
+	Fired at: 12.012
+	Ended at: 13.012
+	Plan Expected firing: 7.012
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+13: (drive t1 c g1)
+	Duration: 1.000
+	Fired at: 13.013
+	Ended at: 14.013
+	Plan Expected firing: 7.013
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+
+GOAL REACHED

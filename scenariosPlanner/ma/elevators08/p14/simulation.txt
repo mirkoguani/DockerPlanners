@@ -1,0 +1,636 @@
+1: (board slow1-0 p5 n12 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+0: (board fast0 p6 n8 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (board slow0-0 p9 n2 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (move-down-fast fast1 n12 n0)
+	Duration: 5
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+5: (leave fast0 p6 n8 n1 n0)
+	Duration: 1.000
+	Fired at: 1.001
+	Ended at: 2.001
+	Plan Expected firing: 1.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+6: (move-up-slow slow0-0 n2 n8)
+	Duration: 10.000
+	Fired at: 1.001
+	Ended at: 11.001
+	Plan Expected firing: 1.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+4: (move-down-slow slow1-0 n12 n8)
+	Duration: 10.000
+	Fired at: 1.001
+	Ended at: 11.001
+	Plan Expected firing: 1.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+7: (move-down-fast fast0 n8 n4)
+	Duration: 5.000
+	Fired at: 2.002
+	Ended at: 7.002
+	Plan Expected firing: 2.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+8: (board fast1 p3 n0 n0 n1)
+	Duration: 1.000
+	Not Fired at: 5.001
+	Not Ended at: 6.001
+	Plan Expected firing: 5.001
+	Execution Mode: -
+SKIPPED-NOPREC
+	lift-at fast1 n0
+
+9: (move-up-fast fast1 n0 n8)
+	Duration: 5.000
+	Not Fired at: 5.002
+	Not Ended at: 10.002
+	Plan Expected firing: 6.002
+	Execution Mode: -
+SKIPPED-NOPREC
+	lift-at fast1 n0
+
+14: (leave fast1 p3 n8 n1 n0)
+	Duration: 1.000
+	Not Fired at: 5.003
+	Not Ended at: 6.003
+	Plan Expected firing: 11.003
+	Execution Mode: -
+SKIPPED-NOPREC
+	lift-at fast1 n8
+	boarded p3 fast1
+	passengers fast1 n1
+
+10: (board fast0 p10 n4 n0 n1)
+	Duration: 1.000
+	Fired at: 7.003
+	Ended at: 8.003
+	Plan Expected firing: 7.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+11: (move-up-fast fast0 n4 n12)
+	Duration: 5.000
+	Fired at: 8.004
+	Ended at: 13.004
+	Plan Expected firing: 8.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+12: (board slow1-0 p6 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 11.002
+	Ended at: 12.002
+	Plan Expected firing: 11.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+13: (leave slow0-0 p9 n8 n1 n0)
+	Duration: 1.000
+	Fired at: 11.002
+	Ended at: 12.002
+	Plan Expected firing: 11.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+15: (leave slow1-0 p5 n8 n2 n1)
+	Duration: 1.000
+	Fired at: 12.003
+	Ended at: 13.003
+	Plan Expected firing: 12.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+16: (move-down-slow slow0-0 n8 n3)
+	Duration: 10.000
+	Fired at: 12.003
+	Ended at: 22.003
+	Plan Expected firing: 12.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+17: (move-up-slow slow1-0 n8 n13)
+	Duration: 40
+	Fired at: 13.004
+	Ended at: 53.004
+	Plan Expected firing: 13.004
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+18: (leave fast0 p10 n12 n1 n0)
+	Duration: 1.000
+	Fired at: 13.005
+	Ended at: 14.005
+	Plan Expected firing: 13.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+19: (board slow0-0 p7 n3 n0 n1)
+	Duration: 1.000
+	Fired at: 22.004
+	Ended at: 23.004
+	Plan Expected firing: 22.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+21: (move-up-slow slow0-0 n3 n7)
+	Duration: 10.000
+	Fired at: 23.005
+	Ended at: 33.005
+	Plan Expected firing: 23.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+23: (board slow0-0 p13 n7 n1 n2)
+	Duration: 1.000
+	Fired at: 33.006
+	Ended at: 34.006
+	Plan Expected firing: 33.006
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+24: (move-down-slow slow0-0 n7 n6)
+	Duration: 10.000
+	Fired at: 34.007
+	Ended at: 44.007
+	Plan Expected firing: 34.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+29: (leave slow0-0 p13 n6 n2 n1)
+	Duration: 1.000
+	Fired at: 44.008
+	Ended at: 45.008
+	Plan Expected firing: 44.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+30: (leave slow0-0 p7 n6 n1 n0)
+	Duration: 1.000
+	Fired at: 45.009
+	Ended at: 46.009
+	Plan Expected firing: 45.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+31: (move-down-slow slow0-0 n6 n5)
+	Duration: 10.000
+	Fired at: 46.010
+	Ended at: 56.010
+	Plan Expected firing: 46.010
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+20: (board slow1-0 p0 n13 n1 n2)
+	Duration: 1.000
+	Fired at: 53.005
+	Ended at: 54.005
+	Plan Expected firing: 23.005
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+22: (move-down-slow slow1-0 n13 n8)
+	Duration: 10.000
+	Fired at: 54.006
+	Ended at: 64.006
+	Plan Expected firing: 24.006
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+35: (board slow0-0 p8 n5 n0 n1)
+	Duration: 1.000
+	Fired at: 56.011
+	Ended at: 57.011
+	Plan Expected firing: 56.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+36: (move-up-slow slow0-0 n5 n8)
+	Duration: 10.000
+	Fired at: 57.012
+	Ended at: 67.012
+	Plan Expected firing: 57.012
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+25: (leave slow1-0 p0 n8 n2 n1)
+	Duration: 1.000
+	Fired at: 64.007
+	Ended at: 65.007
+	Plan Expected firing: 34.007
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+26: (board slow1-0 p3 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 65.008
+	Not Ended at: 66.008
+	Plan Expected firing: 35.008
+	Execution Mode: -
+SKIPPED-NOPREC
+	passenger-at p3 n8
+
+27: (board slow1-0 p9 n8 n2 n3)
+	Duration: 1
+	Not Fired at: 65.009
+	Not Ended at: 66.009
+	Plan Expected firing: 36.009
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n2
+
+28: (move-up-slow slow1-0 n8 n14)
+	Duration: 10.000
+	Fired at: 65.010
+	Ended at: 75.010
+	Plan Expected firing: 37.010
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+40: (board slow0-0 p5 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 67.013
+	Ended at: 68.013
+	Plan Expected firing: 67.013
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+41: (leave slow0-0 p8 n8 n2 n1)
+	Duration: 1.000
+	Fired at: 68.014
+	Ended at: 69.014
+	Plan Expected firing: 68.014
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+42: (move-down-slow slow0-0 n8 n2)
+	Duration: 10.000
+	Fired at: 69.015
+	Ended at: 79.015
+	Plan Expected firing: 69.015
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+32: (leave slow1-0 p6 n14 n3 n2)
+	Duration: 1.000
+	Not Fired at: 75.011
+	Not Ended at: 76.011
+	Plan Expected firing: 47.011
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n3
+
+33: (leave slow1-0 p3 n14 n2 n1)
+	Duration: 1.000
+	Not Fired at: 75.012
+	Not Ended at: 76.012
+	Plan Expected firing: 48.012
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p3 slow1-0
+	passengers slow1-0 n2
+
+34: (move-down-slow slow1-0 n14 n9)
+	Duration: 10.000
+	Fired at: 75.013
+	Ended at: 85.013
+	Plan Expected firing: 49.013
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+46: (leave slow0-0 p5 n2 n1 n0)
+	Duration: 1.000
+	Fired at: 79.016
+	Ended at: 80.016
+	Plan Expected firing: 79.016
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+47: (move-up-slow slow0-0 n2 n6)
+	Duration: 10.000
+	Fired at: 80.017
+	Ended at: 90.017
+	Plan Expected firing: 80.017
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+37: (leave slow1-0 p9 n9 n1 n0)
+	Duration: 1.000
+	Not Fired at: 85.014
+	Not Ended at: 86.014
+	Plan Expected firing: 59.014
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p9 slow1-0
+
+38: (board slow1-0 p4 n9 n0 n1)
+	Duration: 1.000
+	Not Fired at: 85.015
+	Not Ended at: 86.015
+	Plan Expected firing: 60.015
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n0
+
+39: (move-down-slow slow1-0 n9 n8)
+	Duration: 10.000
+	Fired at: 85.016
+	Ended at: 95.016
+	Plan Expected firing: 61.016
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+51: (board slow0-0 p7 n6 n0 n1)
+	Duration: 1.000
+	Fired at: 90.018
+	Ended at: 91.018
+	Plan Expected firing: 90.018
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+52: (move-up-slow slow0-0 n6 n8)
+	Duration: 10.000
+	Fired at: 91.019
+	Ended at: 101.019
+	Plan Expected firing: 91.019
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+43: (board slow1-0 p8 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 95.017
+	Ended at: 96.017
+	Plan Expected firing: 71.017
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+44: (leave slow1-0 p4 n8 n2 n1)
+	Duration: 1
+	Not Fired at: 96.018
+	Not Ended at: 97.018
+	Plan Expected firing: 72.018
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p4 slow1-0
+
+45: (move-up-slow slow1-0 n8 n10)
+	Duration: 10.000
+	Fired at: 96.019
+	Ended at: 106.019
+	Plan Expected firing: 73.019
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+55: (board slow0-0 p4 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 101.020
+	Not Ended at: 102.020
+	Plan Expected firing: 101.020
+	Execution Mode: -
+SKIPPED-NOPREC
+	passenger-at p4 n8
+
+56: (move-down-slow slow0-0 n8 n5)
+	Duration: 10.000
+	Fired at: 101.021
+	Ended at: 111.021
+	Plan Expected firing: 102.021
+	Execution Mode: EARLY
+SUCCESSFUL
+
+48: (leave slow1-0 p8 n10 n1 n0)
+	Duration: 1.000
+	Not Fired at: 106.020
+	Not Ended at: 107.020
+	Plan Expected firing: 83.020
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n1
+
+49: (board slow1-0 p1 n10 n0 n1)
+	Duration: 1.000
+	Not Fired at: 106.021
+	Not Ended at: 107.021
+	Plan Expected firing: 84.021
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n0
+
+50: (move-up-slow slow1-0 n10 n15)
+	Duration: 10.000
+	Fired at: 106.022
+	Ended at: 116.022
+	Plan Expected firing: 85.022
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+59: (leave slow0-0 p4 n5 n2 n1)
+	Duration: 1.000
+	Not Fired at: 111.022
+	Not Ended at: 112.022
+	Plan Expected firing: 112.022
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p4 slow0-0
+	passengers slow0-0 n2
+
+60: (move-down-slow slow0-0 n5 n4)
+	Duration: 10.000
+	Fired at: 111.023
+	Ended at: 121.023
+	Plan Expected firing: 113.023
+	Execution Mode: EARLY
+SUCCESSFUL
+
+53: (leave slow1-0 p1 n15 n1 n0)
+	Duration: 1.000
+	Not Fired at: 116.023
+	Not Ended at: 117.023
+	Plan Expected firing: 95.023
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p1 slow1-0
+	passengers slow1-0 n1
+
+54: (move-down-slow slow1-0 n15 n11)
+	Duration: 10.000
+	Fired at: 116.024
+	Ended at: 126.024
+	Plan Expected firing: 96.024
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+65: (leave slow0-0 p7 n4 n1 n0)
+	Duration: 1.000
+	Fired at: 121.024
+	Ended at: 122.024
+	Plan Expected firing: 123.024
+	Execution Mode: EARLY
+SUCCESSFUL
+
+66: (move-up-slow slow0-0 n4 n8)
+	Duration: 10.000
+	Fired at: 122.025
+	Ended at: 132.025
+	Plan Expected firing: 124.025
+	Execution Mode: EARLY
+SUCCESSFUL
+
+57: (board slow1-0 p11 n11 n0 n1)
+	Duration: 1.000
+	Not Fired at: 126.025
+	Not Ended at: 127.025
+	Plan Expected firing: 106.025
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n0
+
+58: (move-up-slow slow1-0 n11 n13)
+	Duration: 10.000
+	Fired at: 126.026
+	Ended at: 136.026
+	Plan Expected firing: 107.026
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+61: (board slow1-0 p12 n13 n1 n2)
+	Duration: 1.000
+	Not Fired at: 136.027
+	Not Ended at: 137.027
+	Plan Expected firing: 117.027
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n1
+
+62: (leave slow1-0 p11 n13 n2 n1)
+	Duration: 1.000
+	Not Fired at: 136.028
+	Not Ended at: 137.028
+	Plan Expected firing: 118.028
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p11 slow1-0
+
+63: (board slow1-0 p2 n13 n1 n2)
+	Duration: 1.000
+	Not Fired at: 136.029
+	Not Ended at: 137.029
+	Plan Expected firing: 119.029
+	Execution Mode: -
+SKIPPED-NOPREC
+	passengers slow1-0 n1
+
+64: (move-down-slow slow1-0 n13 n8)
+	Duration: 10.000
+	Fired at: 136.030
+	Ended at: 146.030
+	Plan Expected firing: 120.030
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+67: (leave slow1-0 p12 n8 n2 n1)
+	Duration: 1.000
+	Not Fired at: 146.031
+	Not Ended at: 147.031
+	Plan Expected firing: 130.031
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p12 slow1-0
+
+69: (board slow0-0 p12 n8 n0 n1)
+	Duration: 1.000
+	Not Fired at: 146.032
+	Not Ended at: 147.032
+	Plan Expected firing: 134.026
+	Execution Mode: -
+SKIPPED-NOPREC
+	passenger-at p12 n8
+
+68: (leave slow1-0 p2 n8 n1 n0)
+	Duration: 1.000
+	Not Fired at: 146.032
+	Not Ended at: 147.032
+	Plan Expected firing: 131.032
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p2 slow1-0
+	passengers slow1-0 n1
+
+70: (board slow0-0 p2 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 146.033
+	Not Ended at: 147.033
+	Plan Expected firing: 135.027
+	Execution Mode: -
+SKIPPED-NOPREC
+	passenger-at p2 n8
+	passengers slow0-0 n1
+
+71: (move-down-slow slow0-0 n8 n5)
+	Duration: 10.000
+	Fired at: 146.034
+	Ended at: 156.034
+	Plan Expected firing: 136.028
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+72: (leave slow0-0 p12 n5 n2 n1)
+	Duration: 1.000
+	Not Fired at: 156.035
+	Not Ended at: 157.035
+	Plan Expected firing: 146.029
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p12 slow0-0
+	passengers slow0-0 n2
+
+73: (move-up-slow slow0-0 n5 n6)
+	Duration: 10.000
+	Fired at: 156.036
+	Ended at: 166.036
+	Plan Expected firing: 147.030
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+74: (leave slow0-0 p2 n6 n1 n0)
+	Duration: 1.000
+	Not Fired at: 166.037
+	Not Ended at: 167.037
+	Plan Expected firing: 157.031
+	Execution Mode: -
+SKIPPED-NOPREC
+	boarded p2 slow0-0
+	passengers slow0-0 n1
+
+
+GOAL NOT REACHED

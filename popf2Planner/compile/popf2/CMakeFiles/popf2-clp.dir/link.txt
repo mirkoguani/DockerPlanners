@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/popf2-clp.dir/popfMain.o CMakeFiles/popf2-clp.dir/solver-clp.o  -o popf2-clp libPOPF2Common.a -lCbcSolver -lCbc -lCgl -lOsiClp -lOsi -lClp -lCoinUtils ../VALfiles/parsing/libParsePDDL.a ../VALfiles/libInst.a 

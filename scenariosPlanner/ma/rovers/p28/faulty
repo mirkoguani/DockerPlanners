@@ -1,0 +1,160 @@
+(:durative-action navigate
+	:id (1)
+	:parameters (?x - rover ?y - waypoint ?z - waypoint)
+	:duration (= ?duration 100)
+	:condition (and
+		(at start (can_traverse ?x ?y ?z))
+		(at start (available ?x))
+		(at start (at ?x ?y))
+		(at start (visible ?y ?z))
+		(at start (xfreex ?x))
+	)
+	:effect (and
+		(at start (not (at ?x ?y)))
+		(at end (at ?x ?z))
+		(at start (not (xfreex ?x)))
+		(at end (xfreex ?x))
+	)
+)
+
+
+(:durative-action sample_soil
+	:id (2)
+	:parameters (?x - rover ?s - store ?p - waypoint)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (at ?x ?p))
+		(at start (at_soil_sample ?p))
+		(at start (equipped_for_soil_analysis ?x))
+		(at start (store_of ?s ?x))
+		(at start (empty ?s))
+		(at start (xfreex ?x))
+	)
+	:effect (and
+		(at start (empty ?s))
+		(at end (not (full ?s)))
+		(at end (not (have_soil_analysis ?x ?p)))
+		(at start (at_soil_sample ?p))
+		(at start (not (xfreex ?x)))
+		(at end (xfreex ?x))
+	)
+)
+
+
+(:durative-action sample_rock
+	:id (3)
+	:parameters (?x - rover ?s - store ?p - waypoint)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (at ?x ?p))
+		(at start (at_rock_sample ?p))
+		(at start (equipped_for_rock_analysis ?x))
+		(at start (store_of ?s ?x))
+		(at start (empty ?s))
+		(at start (xfreex ?x))
+	)
+	:effect (and
+		(at start (empty ?s))
+		(at end (not (full ?s)))
+		(at end (not (have_rock_analysis ?x ?p)))
+		(at start (at_rock_sample ?p))
+		(at start (not (xfreex ?x)))
+		(at end (xfreex ?x))
+	)
+)
+
+(:durative-action take_image
+	:id (4)
+	:parameters (?r - rover ?p - waypoint ?o - objective ?i - camera ?m - mode)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (calibrated ?i ?r))
+		(at start (on_board ?i ?r))
+		(at start (equipped_for_imaging ?r))
+		(at start (supports ?i ?m))
+		(at start (visible_from ?o ?p))
+		(at start (at ?r ?p))
+		(at start (xfreex ?r))
+	)
+	:effect (and
+		(at end (not (have_image ?r ?o ?m)))
+		(at start (calibrated ?i ?r))
+		(at start (not (xfreex ?r)))
+		(at end (xfreex ?r))
+	)
+)
+
+
+(:durative-action communicate_soil_data
+	:id (5)
+	:parameters (?r - rover ?l - lander ?p - waypoint ?x - waypoint ?y - waypoint)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (at ?r ?x))
+		(at start (at_lander ?l ?y))
+		(at start (have_soil_analysis ?r ?p))
+		(at start (visible ?x ?y))
+		(at start (available ?r))
+		(at start (channel_free ?l))
+		(at start (xfreex ?r))
+	)
+	:effect (and
+		(at start (not (available ?r)))
+		(at start (not (channel_free ?l)))
+		(at end (channel_free ?l))
+		(at end (not (communicated_soil_data ?p)))
+		(at end (available ?r))
+		(at start (not (xfreex ?r)))
+		(at end (xfreex ?r))
+	)
+)
+
+
+(:durative-action communicate_rock_data
+	:id (6)
+	:parameters (?r - rover ?l - lander ?p - waypoint ?x - waypoint ?y - waypoint)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (at ?r ?x))
+		(at start (at_lander ?l ?y))
+		(at start (have_rock_analysis ?r ?p))
+		(at start (visible ?x ?y))
+		(at start (available ?r))
+		(at start (channel_free ?l))
+		(at start (xfreex ?r))
+	)
+	:effect (and
+		(at start (not (available ?r)))
+		(at start (not (channel_free ?l)))
+		(at end (channel_free ?l))
+		(at end (not (communicated_rock_data ?p)))
+		(at end (available ?r))
+		(at start (not (xfreex ?r)))
+		(at end (xfreex ?r))
+	)
+)
+
+
+(:durative-action communicate_image_data
+	:id (7)
+	:parameters (?r - rover ?l - lander ?o - objective ?m - mode ?x - waypoint ?y - waypoint)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (at ?r ?x))
+		(at start (at_lander ?l ?y))
+		(at start (have_image ?r ?o ?m))
+		(at start (visible ?x ?y))
+		(at start (available ?r))
+		(at start (channel_free ?l))
+		(at start (xfreex ?r))
+	)
+	:effect (and
+		(at start (not (available ?r)))
+		(at start (not (channel_free ?l)))
+		(at end (channel_free ?l))
+		(at end (not (communicated_image_data ?o ?m)))
+		(at end (available ?r))
+		(at start (not (xfreex ?r)))
+		(at end (xfreex ?r))
+	)
+)

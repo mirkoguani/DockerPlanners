@@ -1,0 +1,637 @@
+1: (board slow1-0 p5 n12 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+0: (board fast0 p6 n8 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+2: (board slow0-0 p9 n2 n0 n1)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+3: (move-down-fast fast1 n12 n0)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+5: (leave fast0 p6 n8 n1 n0)
+	Duration: 1.000
+	Fired at: 1.001
+	Ended at: 2.001
+	Plan Expected firing: 1.001
+	Obs time: 1.001
+AGREEMENT
+
+6: (move-up-slow slow0-0 n2 n8)
+	Duration: 10.000
+	Fired at: 1.001
+	Ended at: 11.001
+	Plan Expected firing: 1.001
+	Obs time: 1.001
+AGREEMENT
+
+4: (move-down-slow slow1-0 n12 n8)
+	Duration: 10.000
+	Fired at: 1.001
+	Ended at: 11.001
+	Plan Expected firing: 1.001
+	Obs time: 1.001
+AGREEMENT
+
+7: (move-down-fast fast0 n8 n4)
+	Duration: 5.000
+	Fired at: 2.002
+	Ended at: 7.002
+	Plan Expected firing: 2.002
+	Obs time: 2.002
+AGREEMENT
+
+8: (board fast1 p3 n0 n0 n1)
+	Duration: 1.000
+	Not Fired at: 5.001
+	Not Ended at: 6.001
+	Plan Expected firing: 5.001
+	Obs time: 5.001
+DISCREPANCY
+	lift-at fast1 n0
+
+9: (move-up-fast fast1 n0 n8)
+	Duration: 5.000
+	Not Fired at: 6.002
+	Not Ended at: 11.002
+	Plan Expected firing: 6.002
+	Obs time: 5.003
+DISCREPANCY
+	lift-at fast1 n0
+
+10: (board fast0 p10 n4 n0 n1)
+	Duration: 1.000
+	Fired at: 7.003
+	Ended at: 8.003
+	Plan Expected firing: 7.003
+	Obs time: 7.003
+AGREEMENT
+
+11: (move-up-fast fast0 n4 n12)
+	Duration: 5.000
+	Fired at: 8.004
+	Ended at: 13.004
+	Plan Expected firing: 8.004
+	Obs time: 8.004
+AGREEMENT
+
+12: (board slow1-0 p6 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 11.002
+	Ended at: 12.002
+	Plan Expected firing: 11.002
+	Obs time: 11.002
+AGREEMENT
+
+13: (leave slow0-0 p9 n8 n1 n0)
+	Duration: 1.000
+	Fired at: 11.002
+	Ended at: 12.002
+	Plan Expected firing: 11.002
+	Obs time: 11.002
+AGREEMENT
+
+14: (leave fast1 p3 n8 n1 n0)
+	Duration: 1.000
+	Fired at: 11.003
+	Ended at: 12.003
+	Plan Expected firing: 11.003
+	Obs time: 11.002
+AGREEMENT
+
+15: (leave slow1-0 p5 n8 n2 n1)
+	Duration: 1.000
+	Fired at: 12.003
+	Ended at: 13.003
+	Plan Expected firing: 12.003
+	Obs time: 12.003
+AGREEMENT
+
+16: (move-down-slow slow0-0 n8 n3)
+	Duration: 10.000
+	Fired at: 12.003
+	Ended at: 22.003
+	Plan Expected firing: 12.003
+	Obs time: 12.003
+AGREEMENT
+
+17: (move-up-slow slow1-0 n8 n13)
+	Duration: 10.000
+	Fired at: 13.004
+	Ended at: 23.004
+	Plan Expected firing: 13.004
+	Obs time: 13.004
+AGREEMENT
+
+18: (leave fast0 p10 n12 n1 n0)
+	Duration: 1.000
+	Fired at: 13.005
+	Ended at: 14.005
+	Plan Expected firing: 13.005
+	Obs time: 13.005
+AGREEMENT
+
+19: (board slow0-0 p7 n3 n0 n1)
+	Duration: 1.000
+	Fired at: 22.004
+	Ended at: 23.004
+	Plan Expected firing: 22.004
+	Obs time: 22.004
+AGREEMENT
+
+20: (board slow1-0 p0 n13 n1 n2)
+	Duration: 1.000
+	Fired at: 23.005
+	Ended at: 24.005
+	Plan Expected firing: 23.005
+	Obs time: 23.005
+AGREEMENT
+
+21: (move-up-slow slow0-0 n3 n7)
+	Duration: 10.000
+	Fired at: 23.005
+	Ended at: 33.005
+	Plan Expected firing: 23.005
+	Obs time: 23.005
+AGREEMENT
+
+22: (move-down-slow slow1-0 n13 n8)
+	Duration: 10.000
+	Fired at: 24.006
+	Ended at: 34.006
+	Plan Expected firing: 24.006
+	Obs time: 23.005
+AGREEMENT
+
+23: (board slow0-0 p13 n7 n1 n2)
+	Duration: 1.000
+	Fired at: 33.006
+	Ended at: 34.006
+	Plan Expected firing: 33.006
+	Obs time: 33.006
+AGREEMENT
+
+25: (leave slow1-0 p0 n8 n2 n1)
+	Duration: 1.000
+	Not Fired at: 34.007
+	Not Ended at: 35.007
+	Plan Expected firing: 34.007
+	Obs time: 34.007
+DISCREPANCY
+	lift-at slow1-0 n8
+	passengers slow1-0 n2
+
+24: (move-down-slow slow0-0 n7 n6)
+	Duration: 10.000
+	Fired at: 34.007
+	Ended at: 44.007
+	Plan Expected firing: 34.007
+	Obs time: 34.007
+AGREEMENT
+
+26: (board slow1-0 p3 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 35.008
+	Not Ended at: 36.008
+	Plan Expected firing: 35.008
+	Obs time: 34.007
+DISCREPANCY
+	lift-at slow1-0 n8
+
+27: (board slow1-0 p9 n8 n2 n3)
+	Duration: 1.000
+	Not Fired at: 36.009
+	Not Ended at: 37.009
+	Plan Expected firing: 36.009
+	Obs time: 34.007
+DISCREPANCY
+	lift-at slow1-0 n8
+	passengers slow1-0 n2
+
+28: (move-up-slow slow1-0 n8 n14)
+	Duration: 10.000
+	Not Fired at: 37.010
+	Not Ended at: 47.010
+	Plan Expected firing: 37.010
+	Obs time: 34.007
+DISCREPANCY
+	lift-at slow1-0 n8
+
+29: (leave slow0-0 p13 n6 n2 n1)
+	Duration: 1.000
+	Fired at: 44.008
+	Ended at: 45.008
+	Plan Expected firing: 44.008
+	Obs time: 44.008
+AGREEMENT
+
+30: (leave slow0-0 p7 n6 n1 n0)
+	Duration: 1.000
+	Fired at: 45.009
+	Ended at: 46.009
+	Plan Expected firing: 45.009
+	Obs time: 45.009
+AGREEMENT
+
+31: (move-down-slow slow0-0 n6 n5)
+	Duration: 10.000
+	Fired at: 46.010
+	Ended at: 56.010
+	Plan Expected firing: 46.010
+	Obs time: 46.01
+AGREEMENT
+
+32: (leave slow1-0 p6 n14 n3 n2)
+	Duration: 1.000
+	Fired at: 47.011
+	Ended at: 48.011
+	Plan Expected firing: 47.011
+	Obs time: 46.01
+AGREEMENT
+
+33: (leave slow1-0 p3 n14 n2 n1)
+	Duration: 1.000
+	Not Fired at: 48.012
+	Not Ended at: 49.012
+	Plan Expected firing: 48.012
+	Obs time: 46.01
+DISCREPANCY
+	passengers slow1-0 n2
+
+34: (move-down-slow slow1-0 n14 n9)
+	Duration: 10.000
+	Fired at: 49.013
+	Ended at: 59.013
+	Plan Expected firing: 49.013
+	Obs time: 46.01
+AGREEMENT
+
+35: (board slow0-0 p8 n5 n0 n1)
+	Duration: 1.000
+	Fired at: 56.011
+	Ended at: 57.011
+	Plan Expected firing: 56.011
+	Obs time: 56.011
+AGREEMENT
+
+36: (move-up-slow slow0-0 n5 n8)
+	Duration: 10.000
+	Fired at: 57.012
+	Ended at: 67.012
+	Plan Expected firing: 57.012
+	Obs time: 57.012
+AGREEMENT
+
+37: (leave slow1-0 p9 n9 n1 n0)
+	Duration: 1.000
+	Not Fired at: 59.014
+	Not Ended at: 60.014
+	Plan Expected firing: 59.014
+	Obs time: 57.012
+DISCREPANCY
+	passengers slow1-0 n1
+
+38: (board slow1-0 p4 n9 n0 n1)
+	Duration: 1.000
+	Not Fired at: 60.015
+	Not Ended at: 61.015
+	Plan Expected firing: 60.015
+	Obs time: 57.012
+DISCREPANCY
+	passengers slow1-0 n0
+
+39: (move-down-slow slow1-0 n9 n8)
+	Duration: 10.000
+	Fired at: 61.016
+	Ended at: 71.016
+	Plan Expected firing: 61.016
+	Obs time: 57.012
+AGREEMENT
+
+40: (board slow0-0 p5 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 67.013
+	Ended at: 68.013
+	Plan Expected firing: 67.013
+	Obs time: 67.013
+AGREEMENT
+
+41: (leave slow0-0 p8 n8 n2 n1)
+	Duration: 1.000
+	Fired at: 68.014
+	Ended at: 69.014
+	Plan Expected firing: 68.014
+	Obs time: 68.014
+AGREEMENT
+
+42: (move-down-slow slow0-0 n8 n2)
+	Duration: 10.000
+	Fired at: 69.015
+	Ended at: 79.015
+	Plan Expected firing: 69.015
+	Obs time: 69.015
+AGREEMENT
+
+43: (board slow1-0 p8 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 71.017
+	Not Ended at: 72.017
+	Plan Expected firing: 71.017
+	Obs time: 69.015
+DISCREPANCY
+	lift-at slow1-0 n8
+
+44: (leave slow1-0 p4 n8 n2 n1)
+	Duration: 1.000
+	Not Fired at: 72.018
+	Not Ended at: 73.018
+	Plan Expected firing: 72.018
+	Obs time: 69.015
+DISCREPANCY
+	lift-at slow1-0 n8
+	passengers slow1-0 n2
+
+45: (move-up-slow slow1-0 n8 n10)
+	Duration: 10.000
+	Not Fired at: 73.019
+	Not Ended at: 83.019
+	Plan Expected firing: 73.019
+	Obs time: 69.015
+DISCREPANCY
+	lift-at slow1-0 n8
+
+46: (leave slow0-0 p5 n2 n1 n0)
+	Duration: 1.000
+	Fired at: 79.016
+	Ended at: 80.016
+	Plan Expected firing: 79.016
+	Obs time: 79.016
+AGREEMENT
+
+47: (move-up-slow slow0-0 n2 n6)
+	Duration: 10.000
+	Fired at: 80.017
+	Ended at: 90.017
+	Plan Expected firing: 80.017
+	Obs time: 80.017
+AGREEMENT
+
+48: (leave slow1-0 p8 n10 n1 n0)
+	Duration: 1.000
+	Fired at: 83.020
+	Ended at: 84.020
+	Plan Expected firing: 83.020
+	Obs time: 80.017
+AGREEMENT
+
+49: (board slow1-0 p1 n10 n0 n1)
+	Duration: 1.000
+	Not Fired at: 84.021
+	Not Ended at: 85.021
+	Plan Expected firing: 84.021
+	Obs time: 80.017
+DISCREPANCY
+	passengers slow1-0 n0
+
+50: (move-up-slow slow1-0 n10 n15)
+	Duration: 10.000
+	Fired at: 85.022
+	Ended at: 95.022
+	Plan Expected firing: 85.022
+	Obs time: 85.016
+AGREEMENT
+
+51: (board slow0-0 p7 n6 n0 n1)
+	Duration: 1.000
+	Fired at: 90.018
+	Ended at: 91.018
+	Plan Expected firing: 90.018
+	Obs time: 90.018
+AGREEMENT
+
+52: (move-up-slow slow0-0 n6 n8)
+	Duration: 10.000
+	Fired at: 91.019
+	Ended at: 101.019
+	Plan Expected firing: 91.019
+	Obs time: 91.019
+AGREEMENT
+
+53: (leave slow1-0 p1 n15 n1 n0)
+	Duration: 1.000
+	Fired at: 95.023
+	Ended at: 96.023
+	Plan Expected firing: 95.023
+	Obs time: 95.017
+AGREEMENT
+
+54: (move-down-slow slow1-0 n15 n11)
+	Duration: 10.000
+	Fired at: 96.024
+	Ended at: 106.024
+	Plan Expected firing: 96.024
+	Obs time: 96.019
+AGREEMENT
+
+55: (board slow0-0 p4 n8 n1 n2)
+	Duration: 1.000
+	Fired at: 101.020
+	Ended at: 102.020
+	Plan Expected firing: 101.020
+	Obs time: 101.02
+AGREEMENT
+
+56: (move-down-slow slow0-0 n8 n5)
+	Duration: 10.000
+	Fired at: 102.021
+	Ended at: 112.021
+	Plan Expected firing: 102.021
+	Obs time: 101.021
+AGREEMENT
+
+57: (board slow1-0 p11 n11 n0 n1)
+	Duration: 1.000
+	Not Fired at: 106.025
+	Not Ended at: 107.025
+	Plan Expected firing: 106.025
+	Obs time: 106.022
+DISCREPANCY
+	passengers slow1-0 n0
+
+58: (move-up-slow slow1-0 n11 n13)
+	Duration: 10.000
+	Fired at: 107.026
+	Ended at: 117.026
+	Plan Expected firing: 107.026
+	Obs time: 106.022
+AGREEMENT
+
+59: (leave slow0-0 p4 n5 n2 n1)
+	Duration: 1.000
+	Not Fired at: 112.022
+	Not Ended at: 113.022
+	Plan Expected firing: 112.022
+	Obs time: 111.023
+DISCREPANCY
+	passengers slow0-0 n2
+
+60: (move-down-slow slow0-0 n5 n4)
+	Duration: 10.000
+	Fired at: 113.023
+	Ended at: 123.023
+	Plan Expected firing: 113.023
+	Obs time: 111.023
+AGREEMENT
+
+61: (board slow1-0 p12 n13 n1 n2)
+	Duration: 1.000
+	Not Fired at: 117.027
+	Not Ended at: 118.027
+	Plan Expected firing: 117.027
+	Obs time: 116.024
+DISCREPANCY
+	lift-at slow1-0 n13
+	passengers slow1-0 n1
+
+62: (leave slow1-0 p11 n13 n2 n1)
+	Duration: 1.000
+	Not Fired at: 118.028
+	Not Ended at: 119.028
+	Plan Expected firing: 118.028
+	Obs time: 116.024
+DISCREPANCY
+	lift-at slow1-0 n13
+
+63: (board slow1-0 p2 n13 n1 n2)
+	Duration: 1.000
+	Not Fired at: 119.029
+	Not Ended at: 120.029
+	Plan Expected firing: 119.029
+	Obs time: 116.024
+DISCREPANCY
+	lift-at slow1-0 n13
+	passengers slow1-0 n1
+
+64: (move-down-slow slow1-0 n13 n8)
+	Duration: 10.000
+	Not Fired at: 120.030
+	Not Ended at: 130.030
+	Plan Expected firing: 120.030
+	Obs time: 116.024
+DISCREPANCY
+	lift-at slow1-0 n13
+
+65: (leave slow0-0 p7 n4 n1 n0)
+	Duration: 1.000
+	Not Fired at: 123.024
+	Not Ended at: 124.024
+	Plan Expected firing: 123.024
+	Obs time: 122.025
+DISCREPANCY
+	boarded p7 slow0-0
+	passengers slow0-0 n1
+
+66: (move-up-slow slow0-0 n4 n8)
+	Duration: 10.000
+	Fired at: 124.025
+	Ended at: 134.025
+	Plan Expected firing: 124.025
+	Obs time: 122.025
+AGREEMENT
+
+67: (leave slow1-0 p12 n8 n2 n1)
+	Duration: 1.000
+	Not Fired at: 130.031
+	Not Ended at: 131.031
+	Plan Expected firing: 130.031
+	Obs time: 126.026
+DISCREPANCY
+	lift-at slow1-0 n8
+
+68: (leave slow1-0 p2 n8 n1 n0)
+	Duration: 1.000
+	Not Fired at: 131.032
+	Not Ended at: 132.032
+	Plan Expected firing: 131.032
+	Obs time: 126.026
+DISCREPANCY
+	lift-at slow1-0 n8
+	passengers slow1-0 n1
+
+69: (board slow0-0 p12 n8 n0 n1)
+	Duration: 1.000
+	Fired at: 134.026
+	Ended at: 135.026
+	Plan Expected firing: 134.026
+	Obs time: 126.026
+AGREEMENT
+
+70: (board slow0-0 p2 n8 n1 n2)
+	Duration: 1.000
+	Not Fired at: 135.027
+	Not Ended at: 136.027
+	Plan Expected firing: 135.027
+	Obs time: 126.026
+DISCREPANCY
+	passengers slow0-0 n1
+
+71: (move-down-slow slow0-0 n8 n5)
+	Duration: 10.000
+	Fired at: 136.028
+	Ended at: 146.028
+	Plan Expected firing: 136.028
+	Obs time: 136.028
+AGREEMENT
+
+72: (leave slow0-0 p12 n5 n2 n1)
+	Duration: 1.000
+	Not Fired at: 146.029
+	Not Ended at: 147.029
+	Plan Expected firing: 146.029
+	Obs time: 136.03
+DISCREPANCY
+	lift-at slow0-0 n5
+	passengers slow0-0 n2
+
+73: (move-up-slow slow0-0 n5 n6)
+	Duration: 10.000
+	Not Fired at: 147.030
+	Not Ended at: 157.030
+	Plan Expected firing: 147.030
+	Obs time: 146.034
+DISCREPANCY
+	lift-at slow0-0 n5
+
+74: (leave slow0-0 p2 n6 n1 n0)
+	Duration: 1.000
+	Not Fired at: 157.031
+	Not Ended at: 158.031
+	Plan Expected firing: 157.031
+	Obs time: 156.036
+DISCREPANCY
+	lift-at slow0-0 n6
+	passengers slow0-0 n1
+
+
+GOAL REACHED

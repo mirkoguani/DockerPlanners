@@ -1,0 +1,6 @@
+{
+	("load", "drive"): 3, # l'azione drive dipende dall'azione load a causa del terzo parametro della load nel file domain.pddl
+	("drive", "load"): 1,
+	("unload", "drive"): 3,
+	("drive", "unload"): 1
+}

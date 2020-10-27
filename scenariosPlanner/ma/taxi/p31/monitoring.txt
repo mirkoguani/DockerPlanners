@@ -1,0 +1,244 @@
+0: (drive t3 c g3)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+1: (enter p4 t2 d)
+	Duration: 1.000
+	Fired at: 0.000
+	Ended at: 1.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+2: (drive t2 d c)
+	Duration: 1.000
+	Fired at: 1.001
+	Ended at: 2.001
+	Plan Expected firing: 1.001
+	Obs time: 1.001
+AGREEMENT
+
+3: (enter p5 t3 g3)
+	Duration: 1.000
+	Fired at: 1.001
+	Ended at: 2.001
+	Plan Expected firing: 1.001
+	Obs time: 1.001
+AGREEMENT
+
+5: (drive t3 g3 d)
+	Duration: 1.000
+	Fired at: 2.002
+	Ended at: 3.002
+	Plan Expected firing: 2.002
+	Obs time: 2.002
+AGREEMENT
+
+4: (exit p4 t2 c)
+	Duration: 1.000
+	Fired at: 2.002
+	Ended at: 3.002
+	Plan Expected firing: 2.002
+	Obs time: 2.002
+AGREEMENT
+
+6: (enter p7 t2 c)
+	Duration: 1.000
+	Fired at: 3.003
+	Ended at: 4.003
+	Plan Expected firing: 3.003
+	Obs time: 3.003
+AGREEMENT
+
+7: (exit p5 t3 d)
+	Duration: 1.000
+	Not Fired at: 3.003
+	Not Ended at: 4.003
+	Plan Expected firing: 3.003
+	Obs time: 3.003
+DISCREPANCY
+	in p5 t3
+
+8: (drive t3 d h1)
+	Duration: 1.000
+	Fired at: 4.004
+	Ended at: 5.004
+	Plan Expected firing: 4.004
+	Obs time: 3.004
+AGREEMENT
+
+9: (drive t2 c d)
+	Duration: 1.000
+	Fired at: 5.005
+	Ended at: 6.005
+	Plan Expected firing: 5.005
+	Obs time: 4.005
+AGREEMENT
+
+10: (enter p1 t3 h1)
+	Duration: 1.000
+	Fired at: 5.005
+	Ended at: 6.005
+	Plan Expected firing: 5.005
+	Obs time: 4.005
+AGREEMENT
+
+11: (drive t3 h1 h2)
+	Duration: 1.000
+	Fired at: 6.006
+	Ended at: 7.006
+	Plan Expected firing: 6.006
+	Obs time: 5.006
+AGREEMENT
+
+12: (exit p7 t2 d)
+	Duration: 1.000
+	Fired at: 6.006
+	Ended at: 7.006
+	Plan Expected firing: 6.006
+	Obs time: 5.006
+AGREEMENT
+
+13: (drive t2 d h1)
+	Duration: 1.000
+	Fired at: 7.007
+	Ended at: 8.007
+	Plan Expected firing: 7.007
+	Obs time: 6.007
+AGREEMENT
+
+14: (exit p1 t3 h2)
+	Duration: 1.000
+	Fired at: 7.007
+	Ended at: 8.007
+	Plan Expected firing: 7.007
+	Obs time: 6.007
+AGREEMENT
+
+16: (enter p2 t3 h2)
+	Duration: 1.000
+	Not Fired at: 8.008
+	Not Ended at: 9.008
+	Plan Expected firing: 8.008
+	Obs time: 7.009
+DISCREPANCY
+	at p2 h2
+	empty t3
+
+15: (enter p6 t2 h1)
+	Duration: 1.000
+	Not Fired at: 8.008
+	Not Ended at: 9.008
+	Plan Expected firing: 8.008
+	Obs time: 7.009
+DISCREPANCY
+	at t2 h1
+
+17: (drive t2 h1 d)
+	Duration: 1.000
+	Not Fired at: 9.009
+	Not Ended at: 10.009
+	Plan Expected firing: 9.009
+	Obs time: 8.009
+DISCREPANCY
+	at t2 h1
+	free d
+
+18: (drive t3 h2 h3)
+	Duration: 1.000
+	Fired at: 9.009
+	Ended at: 10.009
+	Plan Expected firing: 9.009
+	Obs time: 8.009
+AGREEMENT
+
+19: (exit p2 t3 h3)
+	Duration: 1.000
+	Fired at: 10.010
+	Ended at: 11.010
+	Plan Expected firing: 10.010
+	Obs time: 9.01
+AGREEMENT
+
+20: (drive t3 h3 c)
+	Duration: 1.000
+	Fired at: 11.011
+	Ended at: 12.011
+	Plan Expected firing: 11.011
+	Obs time: 10.011
+AGREEMENT
+
+21: (drive t2 d h3)
+	Duration: 1.000
+	Fired at: 12.012
+	Ended at: 13.012
+	Plan Expected firing: 12.012
+	Obs time: 11.012
+AGREEMENT
+
+22: (drive t3 c g2)
+	Duration: 1.000
+	Fired at: 12.012
+	Ended at: 13.012
+	Plan Expected firing: 12.012
+	Obs time: 11.012
+AGREEMENT
+
+23: (exit p6 t2 h3)
+	Duration: 1.000
+	Fired at: 13.013
+	Ended at: 14.013
+	Plan Expected firing: 13.013
+	Obs time: 12.014
+AGREEMENT
+
+24: (enter p3 t2 h3)
+	Duration: 1.000
+	Not Fired at: 14.014
+	Not Ended at: 15.014
+	Plan Expected firing: 14.014
+	Obs time: 13.015
+DISCREPANCY
+	at p3 h3
+	empty t2
+
+25: (drive t2 h3 c)
+	Duration: 1.000
+	Fired at: 15.015
+	Ended at: 16.015
+	Plan Expected firing: 15.015
+	Obs time: 13.015
+AGREEMENT
+
+26: (exit p3 t2 c)
+	Duration: 1.000
+	Not Fired at: 16.016
+	Not Ended at: 17.016
+	Plan Expected firing: 16.016
+	Obs time: 13.015
+DISCREPANCY
+	at t2 c
+
+27: (drive t2 c d)
+	Duration: 1.000
+	Not Fired at: 17.017
+	Not Ended at: 18.017
+	Plan Expected firing: 17.017
+	Obs time: 13.015
+DISCREPANCY
+	at t2 c
+
+28: (drive t3 g2 c)
+	Duration: 1.000
+	Fired at: 18.018
+	Ended at: 19.018
+	Plan Expected firing: 18.018
+	Obs time: 13.015
+AGREEMENT
+
+
+GOAL NOT REACHED

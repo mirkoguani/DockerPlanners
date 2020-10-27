@@ -1,0 +1,3 @@
+(define (problem logistics-8-0) (:domain logistics)
+(:agents tru1 tru3 apn1 tru2)
+)

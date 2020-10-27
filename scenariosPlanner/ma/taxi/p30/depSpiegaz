@@ -1,0 +1,8 @@
+{
+	("enter", "drive"): 2, # l'azione drive dipende dall'azione enter a causa del secondo parametro della enter in domain.pddl
+	("drive", "enter"): 2,
+	("exit", "drive"): 2,
+	("drive", "exit"): 2,
+	("exit", "enter"): 2,
+	("drive", "drive"): 1
+}

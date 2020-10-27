@@ -1,0 +1,468 @@
+1: (lift depot0 hoist0 crate1 pallet0)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+2: (lift distributor1 hoist2 crate5 crate2)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+0: (drive driver1 truck1 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 0.000
+	Ended at: 50.000
+	Plan Expected firing: 0.000
+	Obs time: 0.0
+AGREEMENT
+
+3: (load depot0 hoist0 crate1 truck0)
+	Duration: 5.000
+	Fired at: 5.001
+	Ended at: 10.001
+	Plan Expected firing: 5.001
+	Obs time: 5.001
+AGREEMENT
+
+4: (drive driver0 truck0 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 10.002
+	Ended at: 60.002
+	Plan Expected firing: 10.002
+	Obs time: 10.002
+AGREEMENT
+
+5: (drive driver1 truck1 depot0 distributor1)
+	Duration: 50.000
+	Fired at: 50.001
+	Ended at: 100.001
+	Plan Expected firing: 50.001
+	Obs time: 50.001
+AGREEMENT
+
+6: (unload distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Fired at: 60.003
+	Ended at: 65.003
+	Plan Expected firing: 60.003
+	Obs time: 60.003
+AGREEMENT
+
+8: (drop distributor0 hoist1 crate1 crate4)
+	Duration: 5.000
+	Fired at: 65.004
+	Ended at: 70.004
+	Plan Expected firing: 65.004
+	Obs time: 65.004
+AGREEMENT
+
+7: (drive driver0 truck0 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 65.004
+	Ended at: 115.004
+	Plan Expected firing: 65.004
+	Obs time: 65.004
+AGREEMENT
+
+9: (load distributor1 hoist2 crate5 truck1)
+	Duration: 5.000
+	Fired at: 100.002
+	Ended at: 105.002
+	Plan Expected firing: 100.002
+	Obs time: 100.002
+AGREEMENT
+
+10: (lift distributor1 hoist2 crate2 pallet2)
+	Duration: 5.000
+	Fired at: 105.003
+	Ended at: 110.003
+	Plan Expected firing: 105.003
+	Obs time: 105.003
+AGREEMENT
+
+12: (load distributor1 hoist2 crate2 truck1)
+	Duration: 5.000
+	Fired at: 110.004
+	Ended at: 115.004
+	Plan Expected firing: 110.004
+	Obs time: 110.004
+AGREEMENT
+
+13: (drive driver1 truck1 distributor1 distributor0)
+	Duration: 50.000
+	Fired at: 115.005
+	Ended at: 165.005
+	Plan Expected firing: 115.005
+	Obs time: 115.005
+AGREEMENT
+
+11: (drive driver0 truck0 depot0 distributor1)
+	Duration: 50.000
+	Fired at: 115.005
+	Ended at: 165.005
+	Plan Expected firing: 115.005
+	Obs time: 115.005
+AGREEMENT
+
+15: (unload distributor0 hoist1 crate5 truck1)
+	Duration: 5.000
+	Fired at: 165.006
+	Ended at: 170.006
+	Plan Expected firing: 165.006
+	Obs time: 165.006
+AGREEMENT
+
+14: (drive driver0 truck0 distributor1 distributor0)
+	Duration: 50.000
+	Fired at: 165.006
+	Ended at: 215.006
+	Plan Expected firing: 165.006
+	Obs time: 165.006
+AGREEMENT
+
+16: (drive driver1 truck1 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 170.007
+	Ended at: 220.007
+	Plan Expected firing: 170.007
+	Obs time: 170.007
+AGREEMENT
+
+17: (load distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Fired at: 215.007
+	Ended at: 220.007
+	Plan Expected firing: 215.007
+	Obs time: 170.007
+AGREEMENT
+
+18: (lift distributor0 hoist1 crate1 crate4)
+	Duration: 5.000
+	Not Fired at: 220.008
+	Not Ended at: 225.008
+	Plan Expected firing: 220.008
+	Obs time: 220.008
+DISCREPANCY
+	available distributor0 hoist1
+
+19: (unload depot0 hoist0 crate2 truck1)
+	Duration: 5.000
+	Fired at: 220.008
+	Ended at: 225.008
+	Plan Expected firing: 220.008
+	Obs time: 220.008
+AGREEMENT
+
+22: (drop depot0 hoist0 crate2 pallet0)
+	Duration: 5.000
+	Fired at: 225.009
+	Ended at: 230.009
+	Plan Expected firing: 225.009
+	Obs time: 225.009
+AGREEMENT
+
+21: (load distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Not Fired at: 225.009
+	Not Ended at: 230.009
+	Plan Expected firing: 225.009
+	Obs time: 225.009
+DISCREPANCY
+	lifting distributor0 hoist1 crate1
+
+20: (drive driver1 truck1 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 225.009
+	Ended at: 275.009
+	Plan Expected firing: 225.009
+	Obs time: 225.009
+AGREEMENT
+
+23: (lift distributor0 hoist1 crate4 crate3)
+	Duration: 5.000
+	Not Fired at: 230.010
+	Not Ended at: 235.010
+	Plan Expected firing: 230.010
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+24: (load distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Fired at: 235.011
+	Ended at: 240.011
+	Plan Expected firing: 235.011
+	Obs time: 225.009
+AGREEMENT
+
+25: (lift distributor0 hoist1 crate3 crate0)
+	Duration: 5.000
+	Not Fired at: 240.012
+	Not Ended at: 245.012
+	Plan Expected firing: 240.012
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+26: (load distributor0 hoist1 crate3 truck0)
+	Duration: 5.000
+	Fired at: 245.013
+	Ended at: 250.013
+	Plan Expected firing: 245.013
+	Obs time: 225.009
+AGREEMENT
+
+27: (unload distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Not Fired at: 250.014
+	Not Ended at: 255.014
+	Plan Expected firing: 250.014
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+28: (drop distributor0 hoist1 crate5 crate0)
+	Duration: 5.000
+	Fired at: 255.015
+	Ended at: 260.015
+	Plan Expected firing: 255.015
+	Obs time: 225.009
+AGREEMENT
+
+29: (unload distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Not Fired at: 260.016
+	Not Ended at: 265.016
+	Plan Expected firing: 260.016
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+30: (drop distributor0 hoist1 crate1 crate5)
+	Duration: 5.000
+	Not Fired at: 265.017
+	Not Ended at: 270.017
+	Plan Expected firing: 265.017
+	Obs time: 225.009
+DISCREPANCY
+	lifting distributor0 hoist1 crate1
+
+31: (unload distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Not Fired at: 270.018
+	Not Ended at: 275.018
+	Plan Expected firing: 270.018
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+33: (load distributor0 hoist1 crate4 truck1)
+	Duration: 5.000
+	Fired at: 275.019
+	Ended at: 280.019
+	Plan Expected firing: 275.019
+	Obs time: 225.009
+AGREEMENT
+
+32: (drive driver0 truck0 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 275.019
+	Ended at: 325.019
+	Plan Expected firing: 275.019
+	Obs time: 225.009
+AGREEMENT
+
+34: (lift distributor0 hoist1 crate1 crate5)
+	Duration: 5.000
+	Not Fired at: 280.020
+	Not Ended at: 285.020
+	Plan Expected firing: 280.020
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+35: (load distributor0 hoist1 crate1 truck1)
+	Duration: 5.000
+	Not Fired at: 285.021
+	Not Ended at: 290.021
+	Plan Expected firing: 285.021
+	Obs time: 225.009
+DISCREPANCY
+	lifting distributor0 hoist1 crate1
+
+36: (unload distributor0 hoist1 crate4 truck1)
+	Duration: 5.000
+	Not Fired at: 290.022
+	Not Ended at: 295.022
+	Plan Expected firing: 290.022
+	Obs time: 225.009
+DISCREPANCY
+	available distributor0 hoist1
+
+37: (drive driver1 truck1 distributor0 distributor1)
+	Duration: 50.000
+	Fired at: 295.023
+	Ended at: 345.023
+	Plan Expected firing: 295.023
+	Obs time: 225.009
+AGREEMENT
+
+38: (unload depot0 hoist0 crate3 truck0)
+	Duration: 5.000
+	Not Fired at: 325.020
+	Not Ended at: 330.020
+	Plan Expected firing: 325.020
+	Obs time: 325.009
+DISCREPANCY
+	available depot0 hoist0
+
+40: (drop depot0 hoist0 crate3 crate2)
+	Duration: 5.000
+	Fired at: 330.021
+	Ended at: 335.021
+	Plan Expected firing: 330.021
+	Obs time: 330.01
+AGREEMENT
+
+39: (drive driver0 truck0 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 330.021
+	Ended at: 380.021
+	Plan Expected firing: 330.021
+	Obs time: 330.01
+AGREEMENT
+
+41: (unload distributor1 hoist2 crate1 truck1)
+	Duration: 5.000
+	Fired at: 345.024
+	Ended at: 350.024
+	Plan Expected firing: 345.024
+	Obs time: 345.014
+AGREEMENT
+
+43: (drop distributor1 hoist2 crate1 pallet2)
+	Duration: 5.000
+	Fired at: 350.025
+	Ended at: 355.025
+	Plan Expected firing: 350.025
+	Obs time: 350.023
+AGREEMENT
+
+42: (drive driver1 truck1 distributor1 depot0)
+	Duration: 50.000
+	Fired at: 350.025
+	Ended at: 400.025
+	Plan Expected firing: 350.025
+	Obs time: 350.023
+AGREEMENT
+
+44: (load distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Not Fired at: 380.022
+	Not Ended at: 385.022
+	Plan Expected firing: 380.022
+	Obs time: 350.023
+DISCREPANCY
+	lifting distributor0 hoist1 crate4
+
+45: (lift distributor0 hoist1 crate5 crate0)
+	Duration: 5.000
+	Not Fired at: 385.023
+	Not Ended at: 390.023
+	Plan Expected firing: 385.023
+	Obs time: 350.023
+DISCREPANCY
+	available distributor0 hoist1
+
+46: (load distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Fired at: 390.024
+	Ended at: 395.024
+	Plan Expected firing: 390.024
+	Obs time: 350.023
+AGREEMENT
+
+47: (lift distributor0 hoist1 crate0 pallet1)
+	Duration: 5.000
+	Not Fired at: 395.025
+	Not Ended at: 400.025
+	Plan Expected firing: 395.025
+	Obs time: 350.023
+DISCREPANCY
+	available distributor0 hoist1
+
+48: (load distributor0 hoist1 crate0 truck0)
+	Duration: 5.000
+	Fired at: 400.026
+	Ended at: 405.026
+	Plan Expected firing: 400.026
+	Obs time: 400.024
+AGREEMENT
+
+49: (unload distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Not Fired at: 405.027
+	Not Ended at: 410.027
+	Plan Expected firing: 405.027
+	Obs time: 400.024
+DISCREPANCY
+	available distributor0 hoist1
+
+51: (drop distributor0 hoist1 crate4 pallet1)
+	Duration: 5.000
+	Not Fired at: 410.028
+	Not Ended at: 415.028
+	Plan Expected firing: 410.028
+	Obs time: 400.024
+DISCREPANCY
+	lifting distributor0 hoist1 crate4
+
+50: (drive driver0 truck0 distributor0 distributor1)
+	Duration: 50.000
+	Fired at: 410.028
+	Ended at: 460.028
+	Plan Expected firing: 410.028
+	Obs time: 400.024
+AGREEMENT
+
+52: (unload distributor1 hoist2 crate0 truck0)
+	Duration: 5.000
+	Fired at: 460.029
+	Ended at: 465.029
+	Plan Expected firing: 460.029
+	Obs time: 460.028
+AGREEMENT
+
+53: (drop distributor1 hoist2 crate0 crate1)
+	Duration: 5.000
+	Fired at: 465.030
+	Ended at: 470.030
+	Plan Expected firing: 465.030
+	Obs time: 460.028
+AGREEMENT
+
+54: (unload distributor1 hoist2 crate5 truck0)
+	Duration: 5.000
+	Fired at: 470.031
+	Ended at: 475.031
+	Plan Expected firing: 470.031
+	Obs time: 460.028
+AGREEMENT
+
+55: (drop distributor1 hoist2 crate5 crate0)
+	Duration: 5.000
+	Not Fired at: 475.032
+	Not Ended at: 480.032
+	Plan Expected firing: 475.032
+	Obs time: 460.028
+DISCREPANCY
+	lifting distributor1 hoist2 crate5
+
+
+GOAL REACHED

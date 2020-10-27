@@ -1,0 +1,14 @@
+/home/mirko/Scaricati/optic/release/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/optic/release/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/optic/release/VALfiles/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/optic/release/VALfiles/CMakeFiles/parser.dir
+/home/mirko/Scaricati/optic/release/VALfiles/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/optic/release/VALfiles/CMakeFiles/Inst.dir
+/home/mirko/Scaricati/optic/release/VALfiles/CMakeFiles/validate.dir
+/home/mirko/Scaricati/optic/release/VALfiles/parsing/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/optic/release/VALfiles/parsing/CMakeFiles/ParsePDDL.dir
+/home/mirko/Scaricati/optic/release/VALfiles/parsing/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/optic/release/optic/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/optic/release/optic/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/optic/release/optic/CMakeFiles/OpticCommon.dir
+/home/mirko/Scaricati/optic/release/optic/CMakeFiles/optic-clp.dir

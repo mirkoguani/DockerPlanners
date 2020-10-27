@@ -1,0 +1,255 @@
+1: (load-truck tru2 obj22 pos2)
+	Duration: 2
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+0: (load-truck tru1 obj11 pos1)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (load-truck tru3 obj31 pos3)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+5: (load-truck tru3 obj32 pos3)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (load-truck tru1 obj13 pos1)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+4: (load-truck tru2 obj23 pos2)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+7: (drive-truck tru2 pos2 apt2 cit2)
+	Duration: 20.000
+	Fired at: 4.002
+	Ended at: 24.002
+	Plan Expected firing: 4.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+6: (drive-truck tru1 pos1 apt1 cit1)
+	Duration: 20.000
+	Fired at: 4.002
+	Ended at: 24.002
+	Plan Expected firing: 4.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+8: (drive-truck tru3 pos3 apt3 cit3)
+	Duration: 20.000
+	Fired at: 4.002
+	Ended at: 24.002
+	Plan Expected firing: 4.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+11: (unload-truck tru3 obj31 apt3)
+	Duration: 2
+	Fired at: 24.003
+	Ended at: 26.003
+	Plan Expected firing: 24.003
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+9: (unload-truck tru1 obj11 apt1)
+	Duration: 2.000
+	Fired at: 24.003
+	Ended at: 26.003
+	Plan Expected firing: 24.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+10: (unload-truck tru2 obj22 apt2)
+	Duration: 2.000
+	Not Fired at: 24.003
+	Not Ended at: 26.003
+	Plan Expected firing: 24.003
+	Execution Mode: -
+SKIPPED-NOPREC
+	in obj22 tru2
+
+13: (unload-truck tru2 obj23 apt2)
+	Duration: 2.000
+	Fired at: 24.004
+	Ended at: 26.004
+	Plan Expected firing: 26.004
+	Execution Mode: EARLY
+SUCCESSFUL
+
+12: (unload-truck tru1 obj13 apt1)
+	Duration: 2.000
+	Fired at: 26.004
+	Ended at: 28.004
+	Plan Expected firing: 26.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+14: (unload-truck tru3 obj32 apt3)
+	Duration: 2.000
+	Fired at: 26.004
+	Ended at: 28.004
+	Plan Expected firing: 26.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+15: (load-airplane apn1 obj11 apt1)
+	Duration: 5.000
+	Fired at: 26.004
+	Ended at: 31.004
+	Plan Expected firing: 26.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+16: (load-airplane apn1 obj13 apt1)
+	Duration: 5.000
+	Fired at: 31.005
+	Ended at: 36.005
+	Plan Expected firing: 31.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+17: (fly-airplane apn1 apt1 apt2)
+	Duration: 50.000
+	Fired at: 36.006
+	Ended at: 86.006
+	Plan Expected firing: 36.006
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+18: (load-airplane apn1 obj22 apt2)
+	Duration: 5.000
+	Not Fired at: 86.007
+	Not Ended at: 91.007
+	Plan Expected firing: 86.007
+	Execution Mode: -
+SKIPPED-NOPREC
+	at obj22 apt2
+
+19: (unload-airplane apn1 obj13 apt2)
+	Duration: 5.000
+	Fired at: 86.008
+	Ended at: 91.008
+	Plan Expected firing: 91.008
+	Execution Mode: EARLY
+SUCCESSFUL
+
+20: (fly-airplane apn1 apt2 apt3)
+	Duration: 50.000
+	Fired at: 91.009
+	Ended at: 141.009
+	Plan Expected firing: 96.009
+	Execution Mode: EARLY
+SUCCESSFUL
+
+21: (load-airplane apn1 obj32 apt3)
+	Duration: 5.000
+	Fired at: 141.010
+	Ended at: 146.010
+	Plan Expected firing: 146.010
+	Execution Mode: EARLY
+SUCCESSFUL
+
+22: (unload-airplane apn1 obj11 apt3)
+	Duration: 5.000
+	Fired at: 146.011
+	Ended at: 151.011
+	Plan Expected firing: 151.011
+	Execution Mode: EARLY
+SUCCESSFUL
+
+23: (load-truck tru3 obj11 apt3)
+	Duration: 2.000
+	Not Fired at: 48.005
+	Not Ended at: 50.005
+	Plan Expected firing: 156.012
+	Execution Mode: -
+SKIPPED-TIMEOUT
+
+24: (unload-airplane apn1 obj22 apt3)
+	Duration: 5.000
+	Not Fired at: 151.012
+	Not Ended at: 156.012
+	Plan Expected firing: 156.012
+	Execution Mode: -
+SKIPPED-NOPREC
+	in obj22 apn1
+
+25: (load-truck tru3 obj22 apt3)
+	Duration: 2.000
+	Not Fired at: 68.006
+	Not Ended at: 70.006
+	Plan Expected firing: 161.013
+	Execution Mode: -
+SKIPPED-TIMEOUT
+
+27: (drive-truck tru3 apt3 pos3 cit3)
+	Duration: 20.000
+	Fired at: 68.007
+	Ended at: 88.007
+	Plan Expected firing: 163.014
+	Execution Mode: EARLY
+SUCCESSFUL
+
+28: (unload-truck tru3 obj11 pos3)
+	Duration: 2.000
+	Not Fired at: 88.008
+	Not Ended at: 90.008
+	Plan Expected firing: 183.015
+	Execution Mode: -
+SKIPPED-NOPREC
+	in obj11 tru3
+
+29: (unload-truck tru3 obj22 pos3)
+	Duration: 2.000
+	Not Fired at: 88.009
+	Not Ended at: 90.009
+	Plan Expected firing: 185.016
+	Execution Mode: -
+SKIPPED-NOPREC
+	in obj22 tru3
+
+26: (fly-airplane apn1 apt3 apt1)
+	Duration: 50.000
+	Fired at: 151.013
+	Ended at: 201.013
+	Plan Expected firing: 161.013
+	Execution Mode: EARLY
+SUCCESSFUL
+
+30: (unload-airplane apn1 obj32 apt1)
+	Duration: 5.000
+	Fired at: 201.014
+	Ended at: 206.014
+	Plan Expected firing: 211.014
+	Execution Mode: EARLY
+SUCCESSFUL
+
+
+GOAL NOT REACHED

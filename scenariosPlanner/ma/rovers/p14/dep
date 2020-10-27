@@ -1,0 +1,11 @@
+{
+	("communicate_image_data", "communicate_image_data"): 1,
+	("communicate_soil_data", "communicate_soil_data"): 1,
+	("communicate_rock_data", "communicate_rock_data"): 1,
+	("communicate_image_data", "communicate_soil_data"): 1,
+	("communicate_soil_data", "communicate_image_data"): 1,
+	("communicate_image_data", "communicate_rock_data"): 1,
+	("communicate_rock_data", "communicate_image_data"): 1,
+	("communicate_rock_data", "communicate_soil_data"): 1,
+	("communicate_soil_data", "communicate_rock_data"): 1
+}

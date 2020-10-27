@@ -1,0 +1,16 @@
+/home/mirko/Scaricati/tempo-sat-popf2/compile/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/CMakeFiles/Inst.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/parsing/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/parsing/CMakeFiles/ParsePDDL.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/VALfiles/parsing/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/rebuild_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/edit_cache.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/POPF2Common.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/POPF3Common.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/StochasticPOPF2Common.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/popf2-clp.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/popf3-clp.dir
+/home/mirko/Scaricati/tempo-sat-popf2/compile/popf2/CMakeFiles/popf2-clp-stochastic.dir

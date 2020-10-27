@@ -1,0 +1,579 @@
+4: (navigate rover7 waypoint2 waypoint17)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+6: (navigate rover2 waypoint16 waypoint18)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (navigate rover0 waypoint20 waypoint10)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+7: (navigate rover3 waypoint20 waypoint33)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+8: (navigate rover9 waypoint14 waypoint2)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (navigate rover6 waypoint8 waypoint4)
+	Duration: 10.000
+	Fired at: 0.000
+	Ended at: 10.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+0: (calibrate rover1 camera1 objective5 waypoint5)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+5: (calibrate rover4 camera3 objective1 waypoint11)
+	Duration: 2.000
+	Fired at: 0.000
+	Ended at: 2.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+1: (sample_soil rover8 rover8store waypoint28)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+10: (take_image rover4 waypoint11 objective7 camera3 high_res)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+9: (take_image rover1 waypoint5 objective4 camera1 high_res)
+	Duration: 2.000
+	Fired at: 2.001
+	Ended at: 4.001
+	Plan Expected firing: 2.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+11: (communicate_image_data rover1 general objective4 high_res waypoint5 waypoint29)
+	Duration: 2.000
+	Fired at: 4.002
+	Ended at: 6.002
+	Plan Expected firing: 4.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+12: (calibrate rover4 camera3 objective1 waypoint11)
+	Duration: 2.000
+	Fired at: 4.002
+	Ended at: 6.002
+	Plan Expected firing: 4.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+13: (navigate rover8 waypoint28 waypoint11)
+	Duration: 10.000
+	Fired at: 5.001
+	Ended at: 15.001
+	Plan Expected firing: 5.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+14: (communicate_image_data rover4 general objective7 high_res waypoint11 waypoint29)
+	Duration: 2.000
+	Fired at: 6.003
+	Ended at: 8.003
+	Plan Expected firing: 6.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+15: (calibrate rover1 camera1 objective5 waypoint5)
+	Duration: 2.000
+	Fired at: 6.003
+	Ended at: 8.003
+	Plan Expected firing: 6.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+16: (take_image rover1 waypoint5 objective2 camera1 low_res)
+	Duration: 2.000
+	Fired at: 8.004
+	Ended at: 10.004
+	Plan Expected firing: 8.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+17: (take_image rover4 waypoint11 objective4 camera3 low_res)
+	Duration: 2.000
+	Fired at: 8.004
+	Ended at: 10.004
+	Plan Expected firing: 8.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+22: (calibrate rover9 camera9 objective3 waypoint2)
+	Duration: 2.000
+	Fired at: 10.001
+	Ended at: 12.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+23: (sample_rock rover6 rover6store waypoint4)
+	Duration: 5.000
+	Fired at: 10.001
+	Ended at: 15.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+21: (sample_rock rover3 rover3store waypoint33)
+	Duration: 5.000
+	Fired at: 10.001
+	Ended at: 15.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+20: (sample_soil rover0 rover0store waypoint10)
+	Duration: 5.000
+	Fired at: 10.001
+	Ended at: 15.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+19: (sample_rock rover2 rover2store waypoint18)
+	Duration: 5.000
+	Fired at: 10.001
+	Ended at: 15.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+18: (sample_soil rover7 rover7store waypoint17)
+	Duration: 5.000
+	Fired at: 10.001
+	Ended at: 15.001
+	Plan Expected firing: 10.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+24: (communicate_image_data rover4 general objective4 low_res waypoint11 waypoint29)
+	Duration: 2.000
+	Fired at: 10.005
+	Ended at: 12.005
+	Plan Expected firing: 10.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+25: (take_image rover9 waypoint2 objective5 camera9 low_res)
+	Duration: 2.000
+	Fired at: 12.002
+	Ended at: 14.002
+	Plan Expected firing: 12.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+27: (navigate rover4 waypoint11 waypoint29)
+	Duration: 10.000
+	Fired at: 12.006
+	Ended at: 22.006
+	Plan Expected firing: 12.006
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+26: (communicate_image_data rover1 general objective2 low_res waypoint5 waypoint29)
+	Duration: 2
+	Fired at: 12.006
+	Ended at: 14.006
+	Plan Expected firing: 12.006
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+29: (navigate rover1 waypoint5 waypoint26)
+	Duration: 10.000
+	Fired at: 14.007
+	Ended at: 24.007
+	Plan Expected firing: 14.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+28: (communicate_image_data rover9 general objective5 low_res waypoint2 waypoint29)
+	Duration: 2.000
+	Fired at: 14.007
+	Ended at: 16.007
+	Plan Expected firing: 14.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+32: (navigate rover7 waypoint17 waypoint2)
+	Duration: 10.000
+	Fired at: 15.002
+	Ended at: 25.002
+	Plan Expected firing: 15.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+31: (navigate rover0 waypoint10 waypoint11)
+	Duration: 10.000
+	Fired at: 15.002
+	Ended at: 25.002
+	Plan Expected firing: 15.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+30: (drop rover6 rover6store)
+	Duration: 2.000
+	Fired at: 15.002
+	Ended at: 17.002
+	Plan Expected firing: 15.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+33: (communicate_soil_data rover8 general waypoint28 waypoint11 waypoint29)
+	Duration: 2.000
+	Fired at: 16.008
+	Ended at: 18.008
+	Plan Expected firing: 16.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+34: (sample_soil rover9 rover9store waypoint2)
+	Duration: 5.000
+	Fired at: 16.008
+	Ended at: 21.008
+	Plan Expected firing: 16.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+35: (navigate rover6 waypoint4 waypoint27)
+	Duration: 10.000
+	Fired at: 17.003
+	Ended at: 27.003
+	Plan Expected firing: 17.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+36: (communicate_rock_data rover2 general waypoint18 waypoint18 waypoint29)
+	Duration: 2.000
+	Fired at: 18.009
+	Ended at: 20.009
+	Plan Expected firing: 18.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+37: (drop rover8 rover8store)
+	Duration: 2.000
+	Fired at: 18.009
+	Ended at: 20.009
+	Plan Expected firing: 18.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+39: (navigate rover8 waypoint11 waypoint15)
+	Duration: 10.000
+	Fired at: 20.010
+	Ended at: 30.010
+	Plan Expected firing: 20.010
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+38: (communicate_rock_data rover3 general waypoint33 waypoint33 waypoint29)
+	Duration: 2
+	Fired at: 20.010
+	Ended at: 22.010
+	Plan Expected firing: 20.010
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+40: (drop rover9 rover9store)
+	Duration: 2.000
+	Fired at: 21.009
+	Ended at: 23.009
+	Plan Expected firing: 21.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+41: (navigate rover4 waypoint29 waypoint0)
+	Duration: 10.000
+	Fired at: 22.007
+	Ended at: 32.007
+	Plan Expected firing: 22.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+42: (navigate rover3 waypoint33 waypoint26)
+	Duration: 10.000
+	Fired at: 22.011
+	Ended at: 32.011
+	Plan Expected firing: 22.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+43: (navigate rover9 waypoint2 waypoint24)
+	Duration: 10.000
+	Fired at: 23.010
+	Ended at: 33.010
+	Plan Expected firing: 23.010
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+44: (navigate rover1 waypoint26 waypoint3)
+	Duration: 10.000
+	Fired at: 24.008
+	Ended at: 34.008
+	Plan Expected firing: 24.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+45: (communicate_soil_data rover0 general waypoint10 waypoint11 waypoint29)
+	Duration: 2.000
+	Fired at: 25.003
+	Ended at: 27.003
+	Plan Expected firing: 25.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+46: (communicate_soil_data rover7 general waypoint17 waypoint2 waypoint29)
+	Duration: 2.000
+	Fired at: 27.004
+	Ended at: 29.004
+	Plan Expected firing: 27.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+47: (sample_rock rover6 rover6store waypoint27)
+	Duration: 5.000
+	Fired at: 27.004
+	Ended at: 32.004
+	Plan Expected firing: 27.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+48: (sample_soil rover8 rover8store waypoint15)
+	Duration: 5.000
+	Fired at: 30.011
+	Ended at: 35.011
+	Plan Expected firing: 30.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+49: (navigate rover6 waypoint27 waypoint4)
+	Duration: 10.000
+	Fired at: 32.005
+	Ended at: 42.005
+	Plan Expected firing: 32.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+50: (sample_soil rover4 rover4store waypoint0)
+	Duration: 5
+	Fired at: 32.008
+	Ended at: 37.008
+	Plan Expected firing: 32.008
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+51: (drop rover3 rover3store)
+	Duration: 2.000
+	Fired at: 32.012
+	Ended at: 34.012
+	Plan Expected firing: 32.012
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+52: (sample_soil rover9 rover9store waypoint24)
+	Duration: 5.000
+	Fired at: 33.011
+	Ended at: 38.011
+	Plan Expected firing: 33.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+53: (sample_soil rover1 rover1store waypoint3)
+	Duration: 5.000
+	Fired at: 34.009
+	Ended at: 39.009
+	Plan Expected firing: 34.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+54: (navigate rover3 waypoint26 waypoint17)
+	Duration: 10.000
+	Fired at: 34.013
+	Ended at: 44.013
+	Plan Expected firing: 34.013
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+55: (navigate rover8 waypoint15 waypoint11)
+	Duration: 10.000
+	Fired at: 35.012
+	Ended at: 45.012
+	Plan Expected firing: 35.012
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+56: (communicate_soil_data rover4 general waypoint0 waypoint0 waypoint29)
+	Duration: 2.000
+	Not Fired at: 37.009
+	Not Ended at: 39.009
+	Plan Expected firing: 37.009
+	Execution Mode: -
+SKIPPED-NOPREC
+	have_soil_analysis rover4 waypoint0
+
+57: (drop rover9 rover9store)
+	Duration: 2.000
+	Fired at: 38.012
+	Ended at: 40.012
+	Plan Expected firing: 38.012
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+58: (navigate rover1 waypoint3 waypoint26)
+	Duration: 10.000
+	Fired at: 39.010
+	Ended at: 49.010
+	Plan Expected firing: 39.010
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+59: (sample_rock rover9 rover9store waypoint24)
+	Duration: 5.000
+	Fired at: 40.013
+	Ended at: 45.013
+	Plan Expected firing: 40.013
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+60: (navigate rover6 waypoint4 waypoint26)
+	Duration: 100
+	Fired at: 42.006
+	Ended at: 142.006
+	Plan Expected firing: 42.006
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+61: (sample_rock rover3 rover3store waypoint17)
+	Duration: 5.000
+	Fired at: 44.014
+	Ended at: 49.014
+	Plan Expected firing: 44.014
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+62: (communicate_soil_data rover8 general waypoint15 waypoint11 waypoint29)
+	Duration: 2.000
+	Fired at: 45.013
+	Ended at: 47.013
+	Plan Expected firing: 45.013
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+63: (navigate rover9 waypoint24 waypoint2)
+	Duration: 10.000
+	Fired at: 45.014
+	Ended at: 55.014
+	Plan Expected firing: 45.014
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+64: (communicate_soil_data rover1 general waypoint3 waypoint26 waypoint29)
+	Duration: 2.000
+	Fired at: 49.011
+	Ended at: 51.011
+	Plan Expected firing: 49.011
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+65: (navigate rover3 waypoint17 waypoint26)
+	Duration: 10.000
+	Fired at: 49.015
+	Ended at: 59.015
+	Plan Expected firing: 49.015
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+66: (communicate_rock_data rover6 general waypoint27 waypoint26 waypoint29)
+	Duration: 2.000
+	Fired at: 142.007
+	Ended at: 144.007
+	Plan Expected firing: 52.007
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+67: (communicate_rock_data rover6 general waypoint4 waypoint26 waypoint29)
+	Duration: 2.000
+	Fired at: 144.008
+	Ended at: 146.008
+	Plan Expected firing: 54.008
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+68: (communicate_soil_data rover9 general waypoint2 waypoint2 waypoint29)
+	Duration: 2.000
+	Not Fired at: 105.015
+	Not Ended at: 107.015
+	Plan Expected firing: 56.009
+	Execution Mode: -
+SKIPPED-TIMEOUT
+
+69: (communicate_soil_data rover9 general waypoint24 waypoint2 waypoint29)
+	Duration: 2.000
+	Fired at: 105.016
+	Ended at: 107.016
+	Plan Expected firing: 58.010
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+70: (communicate_rock_data rover9 general waypoint24 waypoint2 waypoint29)
+	Duration: 2.000
+	Fired at: 107.017
+	Ended at: 109.017
+	Plan Expected firing: 60.011
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+71: (communicate_rock_data rover3 general waypoint17 waypoint26 waypoint29)
+	Duration: 2.000
+	Not Fired at: 109.016
+	Not Ended at: 111.016
+	Plan Expected firing: 62.012
+	Execution Mode: -
+SKIPPED-TIMEOUT
+
+
+GOAL NOT REACHED

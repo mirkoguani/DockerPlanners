@@ -1,0 +1,3 @@
+(define (problem elevators-sequencedstrips-p8_8_1) (:domain elevators-sequencedstrips)
+(:agents fast0 slow0-0 fast1 slow1-0)
+)

@@ -1,0 +1,485 @@
+1: (lift depot0 hoist0 crate1 pallet0)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+2: (lift distributor1 hoist2 crate5 crate2)
+	Duration: 5.000
+	Fired at: 0.000
+	Ended at: 5.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+0: (drive driver1 truck1 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 0.000
+	Ended at: 50.000
+	Plan Expected firing: 0.000
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+3: (load depot0 hoist0 crate1 truck0)
+	Duration: 5.000
+	Fired at: 5.001
+	Ended at: 10.001
+	Plan Expected firing: 5.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+4: (drive driver0 truck0 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 10.002
+	Ended at: 60.002
+	Plan Expected firing: 10.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+5: (drive driver1 truck1 depot0 distributor1)
+	Duration: 50.000
+	Fired at: 50.001
+	Ended at: 100.001
+	Plan Expected firing: 50.001
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+6: (unload distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Fired at: 60.003
+	Ended at: 65.003
+	Plan Expected firing: 60.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+8: (drop distributor0 hoist1 crate1 crate4)
+	Duration: 5.000
+	Fired at: 65.004
+	Ended at: 70.004
+	Plan Expected firing: 65.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+7: (drive driver0 truck0 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 65.004
+	Ended at: 115.004
+	Plan Expected firing: 65.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+9: (load distributor1 hoist2 crate5 truck1)
+	Duration: 5.000
+	Fired at: 100.002
+	Ended at: 105.002
+	Plan Expected firing: 100.002
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+10: (lift distributor1 hoist2 crate2 pallet2)
+	Duration: 5.000
+	Fired at: 105.003
+	Ended at: 110.003
+	Plan Expected firing: 105.003
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+12: (load distributor1 hoist2 crate2 truck1)
+	Duration: 5.000
+	Fired at: 110.004
+	Ended at: 115.004
+	Plan Expected firing: 110.004
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+11: (drive driver0 truck0 depot0 distributor1)
+	Duration: 50.000
+	Fired at: 115.005
+	Ended at: 165.005
+	Plan Expected firing: 115.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+13: (drive driver1 truck1 distributor1 distributor0)
+	Duration: 50.000
+	Fired at: 115.005
+	Ended at: 165.005
+	Plan Expected firing: 115.005
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+14: (drive driver0 truck0 distributor1 distributor0)
+	Duration: 150
+	Fired at: 165.006
+	Ended at: 315.006
+	Plan Expected firing: 165.006
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+15: (unload distributor0 hoist1 crate5 truck1)
+	Duration: 5.000
+	Fired at: 165.006
+	Ended at: 170.006
+	Plan Expected firing: 165.006
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+16: (drive driver1 truck1 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 170.007
+	Ended at: 220.007
+	Plan Expected firing: 170.007
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+19: (unload depot0 hoist0 crate2 truck1)
+	Duration: 5.000
+	Fired at: 220.008
+	Ended at: 225.008
+	Plan Expected firing: 220.008
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+22: (drop depot0 hoist0 crate2 pallet0)
+	Duration: 5
+	Fired at: 225.009
+	Ended at: 230.009
+	Plan Expected firing: 225.009
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+20: (drive driver1 truck1 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 225.009
+	Ended at: 275.009
+	Plan Expected firing: 225.009
+	Execution Mode: NOMINAL
+SUCCESSFUL
+
+17: (load distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Fired at: 315.007
+	Ended at: 320.007
+	Plan Expected firing: 215.007
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+18: (lift distributor0 hoist1 crate1 crate4)
+	Duration: 5.000
+	Fired at: 320.008
+	Ended at: 325.008
+	Plan Expected firing: 220.008
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+21: (load distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Fired at: 325.009
+	Ended at: 330.009
+	Plan Expected firing: 225.009
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+23: (lift distributor0 hoist1 crate4 crate3)
+	Duration: 5.000
+	Fired at: 330.010
+	Ended at: 335.010
+	Plan Expected firing: 230.010
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+24: (load distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Fired at: 335.011
+	Ended at: 340.011
+	Plan Expected firing: 235.011
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+25: (lift distributor0 hoist1 crate3 crate0)
+	Duration: 5
+	Fired at: 340.012
+	Ended at: 345.012
+	Plan Expected firing: 240.012
+	Execution Mode: FAULTY
+SUCCESSFUL
+
+26: (load distributor0 hoist1 crate3 truck0)
+	Duration: 5.000
+	Not Fired at: 345.013
+	Not Ended at: 350.013
+	Plan Expected firing: 245.013
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor0 hoist1 crate3
+
+27: (unload distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Fired at: 345.014
+	Ended at: 350.014
+	Plan Expected firing: 250.014
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+28: (drop distributor0 hoist1 crate5 crate0)
+	Duration: 5.000
+	Not Fired at: 350.015
+	Not Ended at: 355.015
+	Plan Expected firing: 255.015
+	Execution Mode: -
+SKIPPED-NOPREC
+	clear crate0
+
+29: (unload distributor0 hoist1 crate1 truck0)
+	Duration: 5.000
+	Not Fired at: 350.016
+	Not Ended at: 355.016
+	Plan Expected firing: 260.016
+	Execution Mode: -
+SKIPPED-NOPREC
+	available distributor0 hoist1
+
+30: (drop distributor0 hoist1 crate1 crate5)
+	Duration: 5.000
+	Not Fired at: 350.017
+	Not Ended at: 355.017
+	Plan Expected firing: 265.017
+	Execution Mode: -
+SKIPPED-NOPREC
+	at crate5 distributor0
+	clear crate5
+	lifting distributor0 hoist1 crate1
+
+31: (unload distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Not Fired at: 350.018
+	Not Ended at: 355.018
+	Plan Expected firing: 270.018
+	Execution Mode: -
+SKIPPED-NOPREC
+	available distributor0 hoist1
+
+33: (load distributor0 hoist1 crate4 truck1)
+	Duration: 5.000
+	Not Fired at: 350.019
+	Not Ended at: 355.019
+	Plan Expected firing: 275.019
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor0 hoist1 crate4
+
+32: (drive driver0 truck0 distributor0 depot0)
+	Duration: 50.000
+	Fired at: 350.019
+	Ended at: 400.019
+	Plan Expected firing: 275.019
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+34: (lift distributor0 hoist1 crate1 crate5)
+	Duration: 5.000
+	Not Fired at: 350.020
+	Not Ended at: 355.020
+	Plan Expected firing: 280.020
+	Execution Mode: -
+SKIPPED-NOPREC
+	available distributor0 hoist1
+	at crate1 distributor0
+	on crate1 crate5
+	clear crate1
+
+35: (load distributor0 hoist1 crate1 truck1)
+	Duration: 5.000
+	Not Fired at: 350.021
+	Not Ended at: 355.021
+	Plan Expected firing: 285.021
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor0 hoist1 crate1
+
+36: (unload distributor0 hoist1 crate4 truck1)
+	Duration: 5.000
+	Not Fired at: 350.022
+	Not Ended at: 355.022
+	Plan Expected firing: 290.022
+	Execution Mode: -
+SKIPPED-NOPREC
+	available distributor0 hoist1
+	in crate4 truck1
+
+37: (drive driver1 truck1 distributor0 distributor1)
+	Duration: 50.000
+	Fired at: 350.023
+	Ended at: 400.023
+	Plan Expected firing: 295.023
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+41: (unload distributor1 hoist2 crate1 truck1)
+	Duration: 5.000
+	Not Fired at: 335.005
+	Not Ended at: 340.005
+	Plan Expected firing: 345.024
+	Execution Mode: -
+SKIPPED-TIMEOUT
+
+43: (drop distributor1 hoist2 crate1 pallet2)
+	Duration: 5.000
+	Not Fired at: 335.006
+	Not Ended at: 340.006
+	Plan Expected firing: 350.025
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor1 hoist2 crate1
+
+38: (unload depot0 hoist0 crate3 truck0)
+	Duration: 5.000
+	Not Fired at: 400.020
+	Not Ended at: 405.020
+	Plan Expected firing: 325.020
+	Execution Mode: -
+SKIPPED-NOPREC
+	available depot0 hoist0
+	in crate3 truck0
+
+40: (drop depot0 hoist0 crate3 crate2)
+	Duration: 5.000
+	Not Fired at: 400.021
+	Not Ended at: 405.021
+	Plan Expected firing: 330.021
+	Execution Mode: -
+SKIPPED-NOPREC
+	at crate2 depot0
+	clear crate2
+	lifting depot0 hoist0 crate3
+
+39: (drive driver0 truck0 depot0 distributor0)
+	Duration: 50.000
+	Fired at: 400.021
+	Ended at: 450.021
+	Plan Expected firing: 330.021
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+42: (drive driver1 truck1 distributor1 depot0)
+	Duration: 50.000
+	Fired at: 400.024
+	Ended at: 450.024
+	Plan Expected firing: 350.025
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+44: (load distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Not Fired at: 450.022
+	Not Ended at: 455.022
+	Plan Expected firing: 380.022
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor0 hoist1 crate4
+
+45: (lift distributor0 hoist1 crate5 crate0)
+	Duration: 5.000
+	Not Fired at: 450.023
+	Not Ended at: 455.023
+	Plan Expected firing: 385.023
+	Execution Mode: -
+SKIPPED-NOPREC
+	available distributor0 hoist1
+	at crate5 distributor0
+	on crate5 crate0
+	clear crate5
+
+46: (load distributor0 hoist1 crate5 truck0)
+	Duration: 5.000
+	Fired at: 450.024
+	Ended at: 455.024
+	Plan Expected firing: 390.024
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+47: (lift distributor0 hoist1 crate0 pallet1)
+	Duration: 5.000
+	Not Fired at: 455.025
+	Not Ended at: 460.025
+	Plan Expected firing: 395.025
+	Execution Mode: -
+SKIPPED-NOPREC
+	clear crate0
+
+48: (load distributor0 hoist1 crate0 truck0)
+	Duration: 5.000
+	Not Fired at: 455.026
+	Not Ended at: 460.026
+	Plan Expected firing: 400.026
+	Execution Mode: -
+SKIPPED-NOPREC
+	lifting distributor0 hoist1 crate0
+
+49: (unload distributor0 hoist1 crate4 truck0)
+	Duration: 5.000
+	Fired at: 455.027
+	Ended at: 460.027
+	Plan Expected firing: 405.027
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+51: (drop distributor0 hoist1 crate4 pallet1)
+	Duration: 5.000
+	Not Fired at: 460.028
+	Not Ended at: 465.028
+	Plan Expected firing: 410.028
+	Execution Mode: -
+SKIPPED-NOPREC
+	clear pallet1
+
+50: (drive driver0 truck0 distributor0 distributor1)
+	Duration: 50.000
+	Fired at: 460.028
+	Ended at: 510.028
+	Plan Expected firing: 410.028
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+52: (unload distributor1 hoist2 crate0 truck0)
+	Duration: 5.000
+	Not Fired at: 510.029
+	Not Ended at: 515.029
+	Plan Expected firing: 460.029
+	Execution Mode: -
+SKIPPED-NOPREC
+	in crate0 truck0
+
+53: (drop distributor1 hoist2 crate0 crate1)
+	Duration: 5.000
+	Not Fired at: 510.030
+	Not Ended at: 515.030
+	Plan Expected firing: 465.030
+	Execution Mode: -
+SKIPPED-NOPREC
+	at crate1 distributor1
+	clear crate1
+	lifting distributor1 hoist2 crate0
+
+54: (unload distributor1 hoist2 crate5 truck0)
+	Duration: 5.000
+	Fired at: 510.031
+	Ended at: 515.031
+	Plan Expected firing: 470.031
+	Execution Mode: DELAYED
+SUCCESSFUL
+
+55: (drop distributor1 hoist2 crate5 crate0)
+	Duration: 5.000
+	Not Fired at: 515.032
+	Not Ended at: 520.032
+	Plan Expected firing: 475.032
+	Execution Mode: -
+SKIPPED-NOPREC
+	at crate0 distributor1
+	clear crate0
+
+
+GOAL NOT REACHED

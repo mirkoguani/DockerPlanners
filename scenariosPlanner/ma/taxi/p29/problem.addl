@@ -1,0 +1,3 @@
+(define (problem taxi-19) (:domain taxi)
+(:agents t3 t1 p2 p3 t2 p1)
+)

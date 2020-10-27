@@ -1,0 +1,65 @@
+(:durative-action drive
+	:id (1)
+	:parameters (?a - driver ?x - truck ?y - place ?z - place)
+	:duration (= ?duration 150)
+	:condition (and
+		(at start (at ?x ?y))
+		(at start (driving ?a ?x))
+		(at start (xfreex ?a))
+	)
+	:effect (and
+		(at end (at ?x ?z))
+		(at start (not (at ?x ?y)))
+		(at start (not (xfreex ?a)))
+		(at end (xfreex ?a))
+	)
+)
+
+
+(:durative-action lift
+	:id (2)
+	:parameters (?p - place ?x - hoist ?y - crate ?z - surface)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (at ?x ?p))
+		(at start (available ?p ?x))
+		(at start (at ?y ?p))
+		(at start (on ?y ?z))
+		(at start (clear ?y))
+		(at start (xfreex ?p))
+	)
+	:effect (and
+		(at end (not (lifting ?p ?x ?y)))
+		(at end (not (clear ?z)))
+		(at start (at ?y ?p))
+		(at start (clear ?y))
+		(at start (available ?p ?x))
+		(at start (on ?y ?z))
+		(at start (not (xfreex ?p)))
+		(at end (xfreex ?p))
+	)
+)
+
+
+(:durative-action drop
+	:id (3)
+	:parameters (?p - place ?x - hoist ?y - crate ?z - surface)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (at ?x ?p))
+		(at start (at ?z ?p))
+		(at start (clear ?z))
+		(at start (lifting ?p ?x ?y))
+		(at start (xfreex ?p))
+	)
+	:effect (and
+		(at end (not (available ?p ?x)))
+		(at end (not (at ?y ?p)))
+		(at end (not (clear ?y)))
+		(at end (not (on ?y ?z)))
+		(at start (lifting ?p ?x ?y))
+		(at start (clear ?z))
+		(at start (not (xfreex ?p)))
+		(at end (xfreex ?p))
+	)
+)

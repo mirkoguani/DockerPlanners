@@ -1,0 +1,1250 @@
+{
+	0.0:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): True,
+							('obj11', 'pos1'): True,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): True,
+							('tru2', 'pos2'): True,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): True,
+							('obj23', 'pos2'): True,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): True,
+							('obj32', 'pos3'): True,
+							('obj33', 'pos3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'2', '1', '0', 
+				},
+		},
+	2.001:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): True,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): True,
+							('tru2', 'pos2'): True,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): True,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): True,
+							('obj33', 'pos3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): True,
+							('obj31', 'tru3'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'4', '5', '3', 
+				},
+		},
+	4.002:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): True,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): True,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): True,
+							('obj31', 'tru3'): True,
+							('obj32', 'tru3'): True,
+							('obj13', 'tru1'): True,
+							('obj23', 'tru2'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'8', '6', '7', 
+				},
+		},
+	24.003:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): True,
+							('obj31', 'tru3'): True,
+							('obj32', 'tru3'): True,
+							('obj13', 'tru1'): True,
+							('obj23', 'tru2'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'9', '10', '11', 
+				},
+		},
+	24.004:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): True,
+							('obj13', 'tru1'): True,
+							('obj23', 'tru2'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'13', 
+				},
+		},
+	26.004:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): True,
+							('obj23', 'apt2'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): True,
+							('obj13', 'tru1'): True,
+							('obj23', 'tru2'): False,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'14', '15', '12', 
+				},
+		},
+	31.005:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): True,
+							('obj32', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'16', 
+				},
+		},
+	36.006:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'17', 
+				},
+		},
+	86.007:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): True,
+							('apn1', 'apt2'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'18', 
+				},
+		},
+	86.008:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): True,
+							('apn1', 'apt2'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'19', 
+				},
+		},
+	91.009:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): True,
+							('apn1', 'apt2'): True,
+							('obj13', 'apt2'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): False,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'20', 
+				},
+		},
+	141.01:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): True,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): False,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'21', 
+				},
+		},
+	146.011:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): True,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'22', 
+				},
+		},
+	48.005:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'23', 
+				},
+		},
+	151.012:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'24', 
+				},
+		},
+	68.006:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'25', 
+				},
+		},
+	68.007:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): False,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): True,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'27', 
+				},
+		},
+	88.008:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): False,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'28', 
+				},
+		},
+	88.009:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): False,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'29', 
+				},
+		},
+	151.013:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): False,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): False,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): True,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'26', 
+				},
+		},
+	201.014:
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): False,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): False,
+							('obj11', 'apt3'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): True,
+						},
+				},
+			'num':
+				{
+				},
+			'actions':
+				{
+					'30', 
+				},
+		},
+	'goal':
+		{
+			'prop':
+				{
+					'at':
+						{
+							('apn1', 'apt1'): True,
+							('tru1', 'pos1'): False,
+							('obj11', 'pos1'): False,
+							('obj12', 'pos1'): True,
+							('obj13', 'pos1'): False,
+							('tru2', 'pos2'): False,
+							('obj21', 'pos2'): True,
+							('obj22', 'pos2'): False,
+							('obj23', 'pos2'): False,
+							('tru3', 'pos3'): True,
+							('obj31', 'pos3'): False,
+							('obj32', 'pos3'): False,
+							('obj33', 'pos3'): True,
+							('tru2', 'apt2'): True,
+							('tru1', 'apt1'): True,
+							('tru3', 'apt3'): False,
+							('obj31', 'apt3'): False,
+							('obj11', 'apt1'): False,
+							('obj23', 'apt2'): True,
+							('obj13', 'apt1'): False,
+							('obj32', 'apt3'): False,
+							('apn1', 'apt2'): False,
+							('obj13', 'apt2'): True,
+							('apn1', 'apt3'): False,
+							('obj11', 'apt3'): True,
+							('obj32', 'apt1'): True,
+						},
+					'in-city':
+						{
+							('tru1', 'pos1', 'cit1'): True,
+							('tru1', 'apt1', 'cit1'): True,
+							('tru2', 'pos2', 'cit2'): True,
+							('tru2', 'apt2', 'cit2'): True,
+							('tru3', 'pos3', 'cit3'): True,
+							('tru3', 'apt3', 'cit3'): True,
+						},
+					'in':
+						{
+							('obj22', 'tru2'): False,
+							('obj11', 'tru1'): False,
+							('obj31', 'tru3'): False,
+							('obj32', 'tru3'): False,
+							('obj13', 'tru1'): False,
+							('obj23', 'tru2'): False,
+							('obj11', 'apn1'): False,
+							('obj13', 'apn1'): False,
+							('obj32', 'apn1'): False,
+						},
+				},
+			'num':
+				{
+				},
+		},
+}

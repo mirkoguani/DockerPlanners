@@ -1,0 +1,4 @@
+{
+	("unload-truck", "load-airplane"): 1,
+	("unload-airplane", "load-truck"): 1
+}

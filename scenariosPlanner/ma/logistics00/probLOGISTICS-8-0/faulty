@@ -1,0 +1,103 @@
+(:durative-action fly-airplane
+	:id (1)
+	:parameters (?airplane - airplane ?loc-from - airport ?loc-to - airport)
+	:duration (= ?duration 1000)
+	:condition (and
+		(at start (at ?airplane ?loc-from))
+		(at start (xfreex ?airplane))
+	)
+	:effect (and
+		(at start (not (at ?airplane ?loc-from)))
+		(at end (at ?airplane ?loc-to))
+		(at start (not (xfreex ?airplane)))
+		(at end (xfreex ?airplane))
+	)
+)
+
+(:durative-action load-truck
+	:id (2)
+	:parameters (?truck - truck ?obj - package ?loc - location)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (at ?truck ?loc))
+		(at start (at ?obj ?loc))
+		(at start (xfreex ?truck))
+	)
+	:effect (and
+		(at start (not (at ?obj ?loc)))
+		(at end (not (in ?obj ?truck)))
+		(at start (not (xfreex ?truck)))
+		(at end (xfreex ?truck))
+	)
+)
+
+(:durative-action unload-truck
+	:id (3)
+	:parameters (?truck - truck ?obj - package ?loc - location)
+	:duration (= ?duration 2)
+	:condition (and
+		(at start (at ?truck ?loc))
+		(at start (in ?obj ?truck))
+		(at start (xfreex ?truck))
+	)
+	:effect (and
+		(at start (not (in ?obj ?truck)))
+		(at end (not (at ?obj ?loc)))
+		(at start (not (xfreex ?truck)))
+		(at end (xfreex ?truck))
+	)
+)
+
+(:durative-action load-airplane
+	:id (4)
+	:parameters (?airplane - airplane ?obj - package ?loc - airport)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (at ?obj ?loc))
+		(at start (at ?airplane ?loc))
+		(at start (xfreex ?airplane))
+	)
+	:effect (and
+		(at start (not (at ?obj ?loc)))
+		(at end (not (in ?obj ?airplane)))
+		(at start (not (xfreex ?airplane)))
+		(at end (xfreex ?airplane))
+	)
+)
+
+(:durative-action unload-airplane
+	:id (5)
+	:parameters (?airplane - airplane ?obj - package ?loc - airport)
+	:duration (= ?duration 5)
+	:condition (and
+		(at start (in ?obj ?airplane))
+		(at start (at ?airplane ?loc))
+		(at start (xfreex ?airplane))
+	)
+	:effect (and
+		(at start (not (in ?obj ?airplane)))
+		(at end (not (at ?obj ?loc)))
+		(at start (not (xfreex ?airplane)))
+		(at end (xfreex ?airplane))
+	)
+)
+
+(:durative-action drive-truck
+	:id(6)
+	:parameters (?truck - truck ?loc-from - location ?loc-to - location ?city - city)
+	:duration (= ?duration 200)
+	:condition (and
+		(at start (at ?truck ?loc-from))
+		(at start (in-city ?truck ?loc-from ?city))
+		(at start (in-city ?truck ?loc-to ?city))
+		(at start (xfreex ?truck))
+	)
+	:effect (and
+		(at start (not (at ?truck ?loc-from)))
+		(at end (at ?truck ?loc-to))
+		(at start (not (xfreex ?truck)))
+		(at end (xfreex ?truck))
+	)
+)
+
+
