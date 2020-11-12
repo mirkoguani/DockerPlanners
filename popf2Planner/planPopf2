@@ -38,6 +38,10 @@ while (<IN>) {
 			}
 		}
 		close OUT;
+		
+		#save the last plan in the scalaOutputPlan folder
+		system("cp -fr ./outputPopf2/$soln.$solnfile /app/scalaOutputPlan/$soln");
+				
 		++$solnfile;
 	} else {
 		print;
